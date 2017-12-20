@@ -39,7 +39,7 @@ The Fluent TitleBar provides a way to have a Win10 looking top nav that includes
     <dd><i>Default</i>: true</dd>
 </dl>
 
-## Ackknowledgements
+## Acknowledgements
 - Based on [Fluent Design]() by [Microsoft]()
 - Thanks to browser devs for making Custom Elements and JS Modules
 
