@@ -53,7 +53,7 @@ customElements.define('fl-pivot', class extends FluentElement {
         return 'div.nav nav fl-pivot-item';
     }
     get selector_content() {
-        return 'div.content div';
+        return 'div.content > div';
     }
     _select(n) {
         this.querySelectorAll(this.selector_nav).forEach((v,i) => {
