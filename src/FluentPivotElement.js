@@ -75,7 +75,6 @@ fl-pivot-item {
     padding: 10px;
     border-bottom: 3px solid transparent;
     position: relative;
-    top: 10px;
     color: #afafaf;
     font-size: 20px;
 }
