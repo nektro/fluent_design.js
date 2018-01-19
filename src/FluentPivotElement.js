@@ -27,6 +27,7 @@ fl-pivot > .nav > nav {
     overflow-x: scroll;
     overflow-y: hidden;
     height: 56px;
+	background-color: #eee;
 }
 fl-pivot > .content > div {
     display: none;
