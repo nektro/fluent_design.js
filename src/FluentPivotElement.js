@@ -72,6 +72,7 @@ customElements.define('fl-pivot', class extends FluentElement {
 //
 document.head.appendChild(__makeElement('style', [], `
 fl-pivot-item {
+    display: inline-block;
     padding: 10px;
     border-bottom: 3px solid transparent;
     position: relative;
