@@ -11,3 +11,4 @@ export * from "./FluentTitleBarElement.js";
 export * from "./FluentNavigationElement.js";
 export * from "./FluentPivotElement.js";
 export * from "./FluentTextboxElement.js"
+export * from "./FluentButtonElement.js";
