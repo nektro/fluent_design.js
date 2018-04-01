@@ -87,7 +87,7 @@ fl-nav-ni:active {
 }
 fl-nav-ni.active {
     border-left: 5px solid #0078cf;
-    border-left: 5px solid var(--fluent-theme-color);    
+    border-left: 5px solid var(--fluent-theme-color);
 }
 `));
 
