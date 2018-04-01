@@ -1,5 +1,5 @@
-/* 
- * Copyright (c) 2017 Sean Denny
+/*
+ * Copyright (c) 2018 Sean Denny
  * Custom Elements based on Fluent Design
  * https://github.com/Nektro/fluent-design.js
  * https://docs.microsoft.com/en-us/windows/uwp/design/fluent-design-system/
