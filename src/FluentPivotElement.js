@@ -78,6 +78,7 @@ fl-pivot-item {
     position: relative;
     color: #afafaf;
     font-size: 20px;
+    cursor: pointer;
 }
 fl-pivot-item.active {
     color: black;
