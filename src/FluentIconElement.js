@@ -10,1274 +10,1274 @@ import { FluentElement, __makeElement } from "./FluentElement.js";
 //
 
 //
-export const icon_codes = new Map();
-icon_codes.set("CheckMarkLegacy", '\uE001');
-icon_codes.set("CheckboxFillLegacy", '\uE002');
-icon_codes.set("CheckboxLegacy", '\uE003');
-icon_codes.set("CheckboxIndeterminateLegacy", '\uE004');
-icon_codes.set("CheckboxCompositeReversedLegacy", '\uE005');
-icon_codes.set("HeartLegacy", '\uE006');
-icon_codes.set("HeartBrokenLegacy", '\uE007');
-icon_codes.set("CheckMarkZeroWidthLegacy", '\uE008');
-icon_codes.set("CheckboxFillZeroWidthLegacy", '\uE009');
-icon_codes.set("RatingStarFillZeroWidthLegacy", '\uE00A');
-icon_codes.set("HeartFillZeroWidthLegacy", '\uE00B');
-icon_codes.set("HeartBrokenZeroWidthLegacy", '\uE00C');
-icon_codes.set("ScrollChevronLeftLegacy", '\uE00E');
-icon_codes.set("ScrollChevronRightLegacy", '\uE00F');
-icon_codes.set("ScrollChevronUpLegacy", '\uE010');
-icon_codes.set("ScrollChevronDownLegacy", '\uE011');
-icon_codes.set("ChevronLeft3Legacy", '\uE012');
-icon_codes.set("ChevronRight3Legacy", '\uE013');
-icon_codes.set("ChevronUp3Legacy", '\uE014');
-icon_codes.set("ChevronDown3Legacy", '\uE015');
-icon_codes.set("ScrollChevronLeftBoldLegacy", '\uE016');
-icon_codes.set("ScrollChevronRightBoldLegacy", '\uE017');
-icon_codes.set("ScrollChevronUpBoldLegacy", '\uE018');
-icon_codes.set("ScrollChevronDownBoldLegacy", '\uE019');
-icon_codes.set("RevealPasswordLegacy", '\uE052');
-icon_codes.set("EaseOfAccessLegacy", '\uE07F');
-icon_codes.set("CheckmarkListviewLegacy", '\uE081');
-icon_codes.set("RatingStarFillReducedPaddingHTMLLegacy", '\uE082');
-icon_codes.set("KeyboardStandardLegacy", '\uE087');
-icon_codes.set("KeyboardSplitLegacy", '\uE08F');
-icon_codes.set("SearchboxLegacy", '\uE094');
-icon_codes.set("ChevronLeft1Legacy", '\uE096');
-icon_codes.set("ChevronRight1Legacy", '\uE097');
-icon_codes.set("ChevronUp1Legacy", '\uE098');
-icon_codes.set("ChevronDown1Legacy", '\uE099');
-icon_codes.set("ChevronLeft2Legacy", '\uE09A');
-icon_codes.set("ChevronRight2Legacy", '\uE09B');
-icon_codes.set("ChevronUp2Legacy", '\uE09C');
-icon_codes.set("ChevronDown2Legacy", '\uE09D');
-icon_codes.set("ChevronLeft4Legacy", '\uE09E');
-icon_codes.set("ChevronRight4Legacy", '\uE09F');
-icon_codes.set("ChevronUp4Legacy", '\uE0A0');
-icon_codes.set("ChevronDown4Legacy", '\uE0A1');
-icon_codes.set("CheckboxCompositeLegacy", '\uE0A2');
-icon_codes.set("HeartFillLegacy", '\uE0A5');
-icon_codes.set("BackBttnArrow42Legacy", '\uE0A6');
-icon_codes.set("BackBttnMirroredArrow42Legacy", '\uE0AB');
-icon_codes.set("BackBttnMirroredArrow20Legacy", '\uE0AD');
-icon_codes.set("ArrowHTMLLegacyMirrored", '\uE0AE');
-icon_codes.set("RatingStarFillLegacy", '\uE0B4');
-icon_codes.set("RatingStarFillSmallLegacy", '\uE0B5');
-icon_codes.set("SemanticZoomLegacy", '\uE0B8');
-icon_codes.set("BackBttnArrow20Legacy", '\uE0C4');
-icon_codes.set("ArrowHTMLLegacy", '\uE0D5');
-icon_codes.set("ChevronFlipLeftLegacy", '\uE0E2');
-icon_codes.set("ChevronFlipRightLegacy", '\uE0E3');
-icon_codes.set("ChevronFlipUpLegacy", '\uE0E4');
-icon_codes.set("ChevronFlipDownLegacy", '\uE0E5');
-icon_codes.set("CheckmarkMenuLegacy", '\uE0E7');
-icon_codes.set("PreviousLegacy", '\uE100');
-icon_codes.set("NextLegacy", '\uE101');
-icon_codes.set("PlayLegacy", '\uE102');
-icon_codes.set("PauseLegacy", '\uE103');
-icon_codes.set("EditLegacy", '\uE104');
-icon_codes.set("SaveLegacy", '\uE105');
-icon_codes.set("ClearLegacy", '\uE106');
-icon_codes.set("DeleteLegacy", '\uE107');
-icon_codes.set("RemoveLegacy", '\uE108');
-icon_codes.set("AddLegacy", '\uE109');
-icon_codes.set("CancelLegacy", '\uE10A');
-icon_codes.set("AcceptLegacy", '\uE10B');
-icon_codes.set("MoreLegacy", '\uE10C');
-icon_codes.set("RedoLegacy", '\uE10D');
-icon_codes.set("UndoLegacy", '\uE10E');
-icon_codes.set("HomeLegacy", '\uE10F');
-icon_codes.set("UpLegacy", '\uE110');
-icon_codes.set("ForwardLegacy", '\uE111');
-icon_codes.set("BackLegacy", '\uE112');
-icon_codes.set("FavoriteLegacy", '\uE113');
-icon_codes.set("CameraLegacy", '\uE114');
-icon_codes.set("SettingsLegacy", '\uE115');
-icon_codes.set("VideoLegacy", '\uE116');
-icon_codes.set("SyncLegacy", '\uE117');
-icon_codes.set("DownloadLegacy", '\uE118');
-icon_codes.set("MailLegacy", '\uE119');
-icon_codes.set("FindLegacy", '\uE11A');
-icon_codes.set("HelpLegacy", '\uE11B');
-icon_codes.set("UploadLegacy", '\uE11C');
-icon_codes.set("EmojiLegacy", '\uE11D');
-icon_codes.set("TwoPageLegacy", '\uE11E');
-icon_codes.set("LeaveChatLegacy", '\uE11F');
-icon_codes.set("MailForwardLegacy", '\uE120');
-icon_codes.set("ClockLegacy", '\uE121');
-icon_codes.set("SendLegacy", '\uE122');
-icon_codes.set("CropLegacy", '\uE123');
-icon_codes.set("RotateCameraLegacy", '\uE124');
-icon_codes.set("PeopleLegacy", '\uE125');
-icon_codes.set("ClosePaneLegacy", '\uE126');
-icon_codes.set("OpenPaneLegacy", '\uE127');
-icon_codes.set("WorldLegacy", '\uE128');
-icon_codes.set("FlagLegacy", '\uE129');
-icon_codes.set("PreviewLinkLegacy", '\uE12A');
-icon_codes.set("GlobeLegacy", '\uE12B');
-icon_codes.set("TrimLegacy", '\uE12C');
-icon_codes.set("AttachCameraLegacy", '\uE12D');
-icon_codes.set("ZoomInLegacy", '\uE12E');
-icon_codes.set("BookmarksLegacy", '\uE12F');
-icon_codes.set("DocumentLegacy", '\uE130');
-icon_codes.set("ProtectedDocumentLegacy", '\uE131');
-icon_codes.set("PageFillLegacy", '\uE132');
-icon_codes.set("MultiSelectLegacy", '\uE133');
-icon_codes.set("CommentLegacy", '\uE134');
-icon_codes.set("MailFillLegacy", '\uE135');
-icon_codes.set("ContactInfoLegacy", '\uE136');
-icon_codes.set("HangUpLegacy", '\uE137');
-icon_codes.set("ViewAllLegacy", '\uE138');
-icon_codes.set("MapPinLegacy", '\uE139');
-icon_codes.set("PhoneLegacy", '\uE13A');
-icon_codes.set("VideoChatLegacy", '\uE13B');
-icon_codes.set("SwitchLegacy", '\uE13C');
-icon_codes.set("ContactLegacy", '\uE13D');
-icon_codes.set("RenameLegacy", '\uE13E');
-icon_codes.set("ExpandTileLegacy", '\uE13F');
-icon_codes.set("ReduceTileLegacy", '\uE140');
-icon_codes.set("PinLegacy", '\uE141');
-icon_codes.set("MusicInfoLegacy", '\uE142');
-icon_codes.set("GoLegacy", '\uE143');
-icon_codes.set("KeyBoardLegacy", '\uE144');
-icon_codes.set("DockLeftLegacy", '\uE145');
-icon_codes.set("DockRightLegacy", '\uE146');
-icon_codes.set("DockBottomLegacy", '\uE147');
-icon_codes.set("RemoteLegacy", '\uE148');
-icon_codes.set("RefreshLegacy", '\uE149');
-icon_codes.set("RotateLegacy", '\uE14A');
-icon_codes.set("ShuffleLegacy", '\uE14B');
-icon_codes.set("ListLegacy", '\uE14C');
-icon_codes.set("ShopLegacy", '\uE14D');
-icon_codes.set("SelectAllLegacy", '\uE14E');
-icon_codes.set("OrientationLegacy", '\uE14F');
-icon_codes.set("ImportLegacy", '\uE150');
-icon_codes.set("ImportAllLegacy", '\uE151');
-icon_codes.set("ShowAllFiles3Legacy", '\uE152');
-icon_codes.set("ShowAllFiles1Legacy", '\uE153');
-icon_codes.set("ShowAllFilesLegacy", '\uE154');
-icon_codes.set("BrowsePhotosLegacy", '\uE155');
-icon_codes.set("WebcamLegacy", '\uE156');
-icon_codes.set("PictureLegacy", '\uE158');
-icon_codes.set("SaveLocalLegacy", '\uE159');
-icon_codes.set("CaptionLegacy", '\uE15A');
-icon_codes.set("StopLegacy", '\uE15B');
-icon_codes.set("ShowResultsLegacy", '\uE15C');
-icon_codes.set("VolumeLegacy", '\uE15D');
-icon_codes.set("RepairLegacy", '\uE15E');
-icon_codes.set("MessageLegacy", '\uE15F');
-icon_codes.set("PageLegacy", '\uE160');
-icon_codes.set("CalendarDayLegacy", '\uE161');
-icon_codes.set("CalendarWeekLegacy", '\uE162');
-icon_codes.set("CalendarLegacy", '\uE163');
-icon_codes.set("CharactersLegacy", '\uE164');
-icon_codes.set("MailReplyAllLegacy", '\uE165');
-icon_codes.set("ReadLegacy", '\uE166');
-icon_codes.set("LinkLegacy", '\uE167');
-icon_codes.set("AccountsLegacy", '\uE168');
-icon_codes.set("ShowBccLegacy", '\uE169');
-icon_codes.set("HideBccLegacy", '\uE16A');
-icon_codes.set("CutLegacy", '\uE16B');
-icon_codes.set("AttachLegacy", '\uE16C');
-icon_codes.set("PasteLegacy", '\uE16D');
-icon_codes.set("FilterLegacy", '\uE16E');
-icon_codes.set("CopyLegacy", '\uE16F');
-icon_codes.set("Emoji2Legacy", '\uE170');
-icon_codes.set("ImportantLegacy", '\uE171');
-icon_codes.set("MailReplyLegacy", '\uE172');
-icon_codes.set("SlideshowLegacy", '\uE173');
-icon_codes.set("SortLegacy", '\uE174');
-icon_codes.set("ListLegacyMirrored", '\uE175');
-icon_codes.set("ExpandTileLegacyMirrored", '\uE176');
-icon_codes.set("ReduceTileLegacyMirrored", '\uE177');
-icon_codes.set("ManageLegacy", '\uE178');
-icon_codes.set("AllAppsLegacy", '\uE179');
-icon_codes.set("DisconnectDriveLegacy", '\uE17A');
-icon_codes.set("MapDriveLegacy", '\uE17B');
-icon_codes.set("NewWindowLegacy", '\uE17C');
-icon_codes.set("OpenWithLegacy", '\uE17D');
-icon_codes.set("ContactPresenceLegacy", '\uE181');
-icon_codes.set("PriorityLegacy", '\uE182');
-icon_codes.set("UploadSkyDriveLegacy", '\uE183');
-icon_codes.set("GotoTodayLegacy", '\uE184');
-icon_codes.set("FontLegacy", '\uE185');
-icon_codes.set("FontColorLegacy", '\uE186');
-icon_codes.set("Contact2Legacy", '\uE187');
-icon_codes.set("FolderLegacy", '\uE188');
-icon_codes.set("AudioLegacy", '\uE189');
-icon_codes.set("PlaceFolderLegacy", '\uE18A');
-icon_codes.set("ViewLegacy", '\uE18B');
-icon_codes.set("SetlockScreenLegacy", '\uE18C');
-icon_codes.set("SetTileLegacy", '\uE18D');
-icon_codes.set("CCJapanLegacy", '\uE18E');
-icon_codes.set("CCEuroLegacy", '\uE18F');
-icon_codes.set("CCLegacy", '\uE190');
-icon_codes.set("StopSlideshowLegacy", '\uE191');
-icon_codes.set("PermissionsLegacy", '\uE192');
-icon_codes.set("HighlightLegacy", '\uE193');
-icon_codes.set("DisableUpdatesLegacy", '\uE194');
-icon_codes.set("UnfavoriteLegacy", '\uE195');
-icon_codes.set("UnpinLegacy", '\uE196');
-icon_codes.set("OpenLocalLegacy", '\uE197');
-icon_codes.set("MuteLegacy", '\uE198');
-icon_codes.set("ItalicLegacy", '\uE199');
-icon_codes.set("UnderlineLegacy", '\uE19A');
-icon_codes.set("BoldLegacy", '\uE19B');
-icon_codes.set("MoveToFolderLegacy", '\uE19C');
-icon_codes.set("LikeDislikeLegacy", '\uE19D');
-icon_codes.set("DislikeLegacy", '\uE19E');
-icon_codes.set("LikeLegacy", '\uE19F');
-icon_codes.set("AlignRightLegacy", '\uE1A0');
-icon_codes.set("AlignCenterLegacy", '\uE1A1');
-icon_codes.set("AlignLeftLegacy", '\uE1A2');
-icon_codes.set("ZoomLegacy", '\uE1A3');
-icon_codes.set("ZoomOutLegacy", '\uE1A4');
-icon_codes.set("OpenFileLegacy", '\uE1A5');
-icon_codes.set("OtherUserLegacy", '\uE1A6');
-icon_codes.set("AdminLegacy", '\uE1A7');
-icon_codes.set("MailForwardLegacyMirrored", '\uE1A8');
-icon_codes.set("GoLegacyMirrored", '\uE1AA');
-icon_codes.set("DockLeftLegacyMirrored", '\uE1AB');
-icon_codes.set("DockRightLegacyMirrored", '\uE1AC');
-icon_codes.set("ImportLegacyMirrored", '\uE1AD');
-icon_codes.set("ImportAllLegacyMirrored", '\uE1AE');
-icon_codes.set("MailReplyLegacyMirrored", '\uE1AF');
-icon_codes.set("ItalicCLegacy", '\uE1B0');
-icon_codes.set("BoldGLegacy", '\uE1B1');
-icon_codes.set("UnderlineSLegacy", '\uE1B2');
-icon_codes.set("BoldFLegacy", '\uE1B3');
-icon_codes.set("ItalicKLegacy", '\uE1B4');
-icon_codes.set("UnderlineULegacy", '\uE1B5');
-icon_codes.set("ItalicILegacy", '\uE1B6');
-icon_codes.set("BoldNLegacy", '\uE1B7');
-icon_codes.set("UnderlineRussianLegacy", '\uE1B8');
-icon_codes.set("BoldRussionLegacy", '\uE1B9');
-icon_codes.set("FontStyleKoreanLegacy", '\uE1BA');
-icon_codes.set("UnderlineLKoreanLegacy", '\uE1BB');
-icon_codes.set("ItalicKoreanLegacy", '\uE1BC');
-icon_codes.set("BoldKoreanLegacy", '\uE1BD');
-icon_codes.set("FontColorKoreanLegacy", '\uE1BE');
-icon_codes.set("ClosePaneLegacyMirrored", '\uE1BF');
-icon_codes.set("OpenPaneLegacyMirrored", '\uE1C0');
-icon_codes.set("EditLegacyMirrored", '\uE1C2');
-icon_codes.set("StreetLegacy", '\uE1C3');
-icon_codes.set("MapLegacy", '\uE1C4');
-icon_codes.set("ClearSelectionLegacy", '\uE1C5');
-icon_codes.set("FontDecreaseLegacy", '\uE1C6');
-icon_codes.set("FontIncreaseLegacy", '\uE1C7');
-icon_codes.set("FontSizeLegacy", '\uE1C8');
-icon_codes.set("CellPhoneLegacy", '\uE1C9');
-icon_codes.set("ReshareLegacy", '\uE1CA');
-icon_codes.set("TagLegacy", '\uE1CB');
-icon_codes.set("RepeatOneLegacy", '\uE1CC');
-icon_codes.set("RepeatAllLegacy", '\uE1CD');
-icon_codes.set("OutlineStarLegacy", '\uE1CE');
-icon_codes.set("SolidStarLegacy", '\uE1CF');
-icon_codes.set("CalculatorLegacy", '\uE1D0');
-icon_codes.set("DirectionsLegacy", '\uE1D1');
-icon_codes.set("LocationLegacy", '\uE1D2');
-icon_codes.set("LibraryLegacy", '\uE1D3');
-icon_codes.set("PhoneBookLegacy", '\uE1D4');
-icon_codes.set("MemoLegacy", '\uE1D5');
-icon_codes.set("MicrophoneLegacy", '\uE1D6');
-icon_codes.set("PostUpdateLegacy", '\uE1D7');
-icon_codes.set("BackToWindowLegacy", '\uE1D8');
-icon_codes.set("FullScreenLegacy", '\uE1D9');
-icon_codes.set("NewFolderLegacy", '\uE1DA');
-icon_codes.set("CalendarReplyLegacy", '\uE1DB');
-icon_codes.set("CalendarLegacyMirrored", '\uE1DC');
-icon_codes.set("UnsyncFolderLegacy", '\uE1DD');
-icon_codes.set("ReportHackedLegacy", '\uE1DE');
-icon_codes.set("SyncFolderLegacy", '\uE1DF');
-icon_codes.set("BlockContactLegacy", '\uE1E0');
-icon_codes.set("SwitchAppsLegacy", '\uE1E1');
-icon_codes.set("AddFriendLegacy", '\uE1E2');
-icon_codes.set("TouchPointerLegacy", '\uE1E3');
-icon_codes.set("GoToStartLegacy", '\uE1E4');
-icon_codes.set("ZeroBarsLegacy", '\uE1E5');
-icon_codes.set("OneBarLegacy", '\uE1E6');
-icon_codes.set("TwoBarsLegacy", '\uE1E7');
-icon_codes.set("ThreeBarsLegacy", '\uE1E8');
-icon_codes.set("FourBarsLegacy", '\uE1E9');
-icon_codes.set("ItalicRussianLegacy", '\uE1EA');
-icon_codes.set("AllAppsLegacyMirrored", '\uE1EC');
-icon_codes.set("OpenWithLegacyMirrored", '\uE1ED');
-icon_codes.set("BookmarksLegacyMirrored", '\uE1EE');
-icon_codes.set("MultiSelectLegacyMirrored", '\uE1EF');
-icon_codes.set("ShowResultsLegacyMirrored", '\uE1F1');
-icon_codes.set("MailReplyAllLegacyMirrored", '\uE1F2');
-icon_codes.set("HelpLegacyMirrored", '\uE1F3');
-icon_codes.set("ClearSelectionLegacyMirrored", '\uE1F4');
-icon_codes.set("RecordLegacy", '\uE1F5');
-icon_codes.set("LockLegacy", '\uE1F6');
-icon_codes.set("UnlockLegacy", '\uE1F7');
-icon_codes.set("DownLegacy", '\uE1FD');
-icon_codes.set("CommentInlineLegacy", '\uE206');
-icon_codes.set("FavoriteInlineLegacy", '\uE208');
-icon_codes.set("LikeInlineLegacy", '\uE209');
-icon_codes.set("VideoInlineLegacy", '\uE20A');
-icon_codes.set("MailMessageLegacy", '\uE20B');
-icon_codes.set("PC1Legacy", '\uE211');
-icon_codes.set("DevicesLegacy", '\uE212');
-icon_codes.set("RatingStarLegacy", '\uE224');
-icon_codes.set("ChevronDownSmLegacy", '\uE228');
-icon_codes.set("ReplyLegacy", '\uE248');
-icon_codes.set("Favorite2Legacy", '\uE249');
-icon_codes.set("Unfavorite2Legacy", '\uE24A');
-icon_codes.set("MobileContactLegacy", '\uE25A');
-icon_codes.set("BlockedLegacy", '\uE25B');
-icon_codes.set("TypingIndicatorLegacy", '\uE25C');
-icon_codes.set("PresenceChickletVideoLegacy", '\uE25D');
-icon_codes.set("PresenceChickletLegacy", '\uE25E');
-icon_codes.set("ChevronRightSmLegacy", '\uE26B');
-icon_codes.set("ChevronLeftSmLegacy", '\uE26C');
-icon_codes.set("SaveAsLegacy", '\uE28F');
-icon_codes.set("DecreaseIndentLegacy", '\uE290');
-icon_codes.set("IncreaseIndentLegacy", '\uE291');
-icon_codes.set("BulletedListLegacy", '\uE292');
-icon_codes.set("ScanLegacy", '\uE294');
-icon_codes.set("PreviewLegacy", '\uE295');
-icon_codes.set("DecreaseIndentLegacyMirrored", '\uE297');
-icon_codes.set("IncreaseIndentLegacyMirrored", '\uE298');
-icon_codes.set("BulletedListLegacyMirrored", '\uE299');
-icon_codes.set("PlayOnLegacy", '\uE29B');
-icon_codes.set("ResolutionLegacy", '\uE2AC');
-icon_codes.set("LengthLegacy", '\uE2AD');
-icon_codes.set("LayoutLegacy", '\uE2AE');
-icon_codes.set("Contact3Legacy", '\uE2AF');
-icon_codes.set("TypeLegacy", '\uE2B0');
-icon_codes.set("ColorLegacy", '\uE2B1');
-icon_codes.set("SizeLegacy", '\uE2B2');
-icon_codes.set("ReturnToWindowLegacy", '\uE2B3');
-icon_codes.set("OpenInNewWindowLegacy", '\uE2B4');
-icon_codes.set("PrintLegacy", '\uE2F6');
-icon_codes.set("Printer3DLegacy", '\uE2F7');
-icon_codes.set("GlobalNavButton", '\uE700');
-icon_codes.set("Wifi", '\uE701');
-icon_codes.set("Bluetooth", '\uE702');
-icon_codes.set("Connect", '\uE703');
-icon_codes.set("InternetSharing", '\uE704');
-icon_codes.set("VPN", '\uE705');
-icon_codes.set("Brightness", '\uE706');
-icon_codes.set("MapPin", '\uE707');
-icon_codes.set("QuietHours", '\uE708');
-icon_codes.set("Airplane", '\uE709');
-icon_codes.set("Tablet", '\uE70A');
-icon_codes.set("QuickNote", '\uE70B');
-icon_codes.set("RememberedDevice", '\uE70C');
-icon_codes.set("ChevronDown", '\uE70D');
-icon_codes.set("ChevronUp", '\uE70E');
-icon_codes.set("Edit", '\uE70F');
-icon_codes.set("Add", '\uE710');
-icon_codes.set("Cancel", '\uE711');
-icon_codes.set("More", '\uE712');
-icon_codes.set("Settings", '\uE713');
-icon_codes.set("Video", '\uE714');
-icon_codes.set("Mail", '\uE715');
-icon_codes.set("People", '\uE716');
-icon_codes.set("Phone", '\uE717');
-icon_codes.set("Pin", '\uE718');
-icon_codes.set("Shop", '\uE719');
-icon_codes.set("Stop", '\uE71A');
-icon_codes.set("Link", '\uE71B');
-icon_codes.set("Filter", '\uE71C');
-icon_codes.set("AllApps", '\uE71D');
-icon_codes.set("Zoom", '\uE71E');
-icon_codes.set("ZoomOut", '\uE71F');
-icon_codes.set("Microphone", '\uE720');
-icon_codes.set("Search", '\uE721');
-icon_codes.set("Camera", '\uE722');
-icon_codes.set("Attach", '\uE723');
-icon_codes.set("Send", '\uE724');
-icon_codes.set("SendFill", '\uE725');
-icon_codes.set("WalkSolid", '\uE726');
-icon_codes.set("InPrivate", '\uE727');
-icon_codes.set("FavoriteList", '\uE728');
-icon_codes.set("PageSolid", '\uE729');
-icon_codes.set("Forward", '\uE72A');
-icon_codes.set("Back", '\uE72B');
-icon_codes.set("Refresh", '\uE72C');
-icon_codes.set("Share", '\uE72D');
-icon_codes.set("Lock", '\uE72E');
-icon_codes.set("ReportHacked", '\uE730');
-icon_codes.set("FavoriteStar", '\uE734');
-icon_codes.set("FavoriteStarFill", '\uE735');
-icon_codes.set("Remove", '\uE738');
-icon_codes.set("Checkbox", '\uE739');
-icon_codes.set("CheckboxComposite", '\uE73A');
-icon_codes.set("CheckboxFill", '\uE73B');
-icon_codes.set("CheckboxIndeterminate", '\uE73C');
-icon_codes.set("CheckboxCompositeReversed", '\uE73D');
-icon_codes.set("CheckMark", '\uE73E');
-icon_codes.set("BackToWindow", '\uE73F');
-icon_codes.set("FullScreen", '\uE740');
-icon_codes.set("ResizeTouchLarger", '\uE741');
-icon_codes.set("ResizeTouchSmaller", '\uE742');
-icon_codes.set("ResizeMouseSmall", '\uE743');
-icon_codes.set("ResizeMouseMedium", '\uE744');
-icon_codes.set("ResizeMouseWide", '\uE745');
-icon_codes.set("ResizeMouseTall", '\uE746');
-icon_codes.set("ResizeMouseLarge", '\uE747');
-icon_codes.set("SwitchUser", '\uE748');
-icon_codes.set("Print", '\uE749');
-icon_codes.set("Up", '\uE74A');
-icon_codes.set("Down", '\uE74B');
-icon_codes.set("OEM", '\uE74C');
-icon_codes.set("Delete", '\uE74D');
-icon_codes.set("Save", '\uE74E');
-icon_codes.set("Mute", '\uE74F');
-icon_codes.set("BackSpaceQWERTY", '\uE750');
-icon_codes.set("ReturnKey", '\uE751');
-icon_codes.set("UpArrowShiftKey", '\uE752');
-icon_codes.set("Cloud", '\uE753');
-icon_codes.set("Flashlight", '\uE754');
-icon_codes.set("RotationLock", '\uE755');
-icon_codes.set("CommandPrompt", '\uE756');
-icon_codes.set("SIPMove", '\uE759');
-icon_codes.set("SIPUndock", '\uE75A');
-icon_codes.set("SIPRedock", '\uE75B');
-icon_codes.set("EraseTool", '\uE75C');
-icon_codes.set("UnderscoreSpace", '\uE75D');
-icon_codes.set("GripperTool", '\uE75E');
-icon_codes.set("Dialpad", '\uE75F');
-icon_codes.set("PageLeft", '\uE760');
-icon_codes.set("PageRight", '\uE761');
-icon_codes.set("MultiSelect", '\uE762');
-icon_codes.set("KeyboardLeftHanded", '\uE763');
-icon_codes.set("KeyboardRightHanded", '\uE764');
-icon_codes.set("KeyboardClassic", '\uE765');
-icon_codes.set("KeyboardSplit", '\uE766');
-icon_codes.set("Volume", '\uE767');
-icon_codes.set("Play", '\uE768');
-icon_codes.set("Pause", '\uE769');
-icon_codes.set("ChevronLeft", '\uE76B');
-icon_codes.set("ChevronRight", '\uE76C');
-icon_codes.set("InkingTool", '\uE76D');
-icon_codes.set("Emoji2", '\uE76E');
-icon_codes.set("GripperBarHorizontal", '\uE76F');
-icon_codes.set("System", '\uE770');
-icon_codes.set("Personalize", '\uE771');
-icon_codes.set("Devices", '\uE772');
-icon_codes.set("SearchAndApps", '\uE773');
-icon_codes.set("Globe", '\uE774');
-icon_codes.set("TimeLanguage", '\uE775');
-icon_codes.set("EaseOfAccess", '\uE776');
-icon_codes.set("UpdateRestore", '\uE777');
-icon_codes.set("HangUp", '\uE778');
-icon_codes.set("ContactInfo", '\uE779');
-icon_codes.set("Unpin", '\uE77A');
-icon_codes.set("Contact", '\uE77B');
-icon_codes.set("Memo", '\uE77C');
-icon_codes.set("Paste", '\uE77F');
-icon_codes.set("PhoneBook", '\uE780');
-icon_codes.set("LEDLight", '\uE781');
-icon_codes.set("Error", '\uE783');
-icon_codes.set("GripperBarVertical", '\uE784');
-icon_codes.set("Unlock", '\uE785');
-icon_codes.set("Slideshow", '\uE786');
-icon_codes.set("Calendar", '\uE787');
-icon_codes.set("GripperResize", '\uE788');
-icon_codes.set("Megaphone", '\uE789');
-icon_codes.set("Trim", '\uE78A');
-icon_codes.set("NewWindow", '\uE78B');
-icon_codes.set("SaveLocal", '\uE78C');
-icon_codes.set("Color", '\uE790');
-icon_codes.set("DataSense", '\uE791');
-icon_codes.set("SaveAs", '\uE792');
-icon_codes.set("Light", '\uE793');
-icon_codes.set("AspectRatio", '\uE799');
-icon_codes.set("DataSenseBar", '\uE7A5');
-icon_codes.set("Redo", '\uE7A6');
-icon_codes.set("Undo", '\uE7A7');
-icon_codes.set("Crop", '\uE7A8');
-icon_codes.set("OpenWith", '\uE7AC');
-icon_codes.set("Rotate", '\uE7AD');
-icon_codes.set("SetlockScreen", '\uE7B5');
-icon_codes.set("MapPin2", '\uE7B7');
-icon_codes.set("Package", '\uE7B8');
-icon_codes.set("Warning", '\uE7BA');
-icon_codes.set("ReadingList", '\uE7BC');
-icon_codes.set("Education", '\uE7BE');
-icon_codes.set("ShoppingCart", '\uE7BF');
-icon_codes.set("Train", '\uE7C0');
-icon_codes.set("Flag", '\uE7C1');
-icon_codes.set("Page", '\uE7C3');
-icon_codes.set("Multitask", '\uE7C4');
-icon_codes.set("BrowsePhotos", '\uE7C5');
-icon_codes.set("HalfStarLeft", '\uE7C6');
-icon_codes.set("HalfStarRight", '\uE7C7');
-icon_codes.set("Record", '\uE7C8');
-icon_codes.set("TouchPointer", '\uE7C9');
-icon_codes.set("LangJPN", '\uE7DE');
-icon_codes.set("Ferry", '\uE7E3');
-icon_codes.set("Highlight", '\uE7E6');
-icon_codes.set("ActionCenterNotification", '\uE7E7');
-icon_codes.set("PowerButton", '\uE7E8');
-icon_codes.set("ResizeTouchNarrower", '\uE7EA');
-icon_codes.set("ResizeTouchShorter", '\uE7EB');
-icon_codes.set("DrivingMode", '\uE7EC');
-icon_codes.set("RingerSilent", '\uE7ED');
-icon_codes.set("OtherUser", '\uE7EE');
-icon_codes.set("Admin", '\uE7EF');
-icon_codes.set("CC", '\uE7F0');
-icon_codes.set("SDCard", '\uE7F1');
-icon_codes.set("CallForwarding", '\uE7F2');
-icon_codes.set("SettingsDisplaySound", '\uE7F3');
-icon_codes.set("TVMonitor", '\uE7F4');
-icon_codes.set("Speakers", '\uE7F5');
-icon_codes.set("Headphone", '\uE7F6');
-icon_codes.set("DeviceLaptopPic", '\uE7F7');
-icon_codes.set("DeviceLaptopNoPic", '\uE7F8');
-icon_codes.set("DeviceMonitorRightPic", '\uE7F9');
-icon_codes.set("DeviceMonitorLeftPic", '\uE7FA');
-icon_codes.set("DeviceMonitorNoPic", '\uE7FB');
-icon_codes.set("Game", '\uE7FC');
-icon_codes.set("HorizontalTabKey", '\uE7FD');
-icon_codes.set("StreetsideSplitMinimize", '\uE802');
-icon_codes.set("StreetsideSplitExpand", '\uE803');
-icon_codes.set("Car", '\uE804');
-icon_codes.set("Walk", '\uE805');
-icon_codes.set("Bus", '\uE806');
-icon_codes.set("TiltUp", '\uE809');
-icon_codes.set("TiltDown", '\uE80A');
-icon_codes.set("RotateMapRight", '\uE80C');
-icon_codes.set("RotateMapLeft", '\uE80D');
-icon_codes.set("Home", '\uE80F');
-icon_codes.set("ParkingLocation", '\uE811');
-icon_codes.set("MapCompassTop", '\uE812');
-icon_codes.set("MapCompassBottom", '\uE813');
-icon_codes.set("IncidentTriangle", '\uE814');
-icon_codes.set("Touch", '\uE815');
-icon_codes.set("MapDirections", '\uE816');
-icon_codes.set("StartPoint", '\uE819');
-icon_codes.set("StopPoint", '\uE81A');
-icon_codes.set("EndPoint", '\uE81B');
-icon_codes.set("History", '\uE81C');
-icon_codes.set("Location", '\uE81D');
-icon_codes.set("MapLayers", '\uE81E');
-icon_codes.set("Accident", '\uE81F');
-icon_codes.set("Work", '\uE821');
-icon_codes.set("Construction", '\uE822');
-icon_codes.set("Recent", '\uE823');
-icon_codes.set("Bank", '\uE825');
-icon_codes.set("DownloadMap", '\uE826');
-icon_codes.set("InkingToolFill2", '\uE829');
-icon_codes.set("HighlightFill2", '\uE82A');
-icon_codes.set("EraseToolFill", '\uE82B');
-icon_codes.set("EraseToolFill2", '\uE82C');
-icon_codes.set("Dictionary", '\uE82D');
-icon_codes.set("DictionaryAdd", '\uE82E');
-icon_codes.set("ToolTip", '\uE82F');
-icon_codes.set("ChromeBack", '\uE830');
-icon_codes.set("ProvisioningPackage", '\uE835');
-icon_codes.set("AddRemoteDevice", '\uE836');
-icon_codes.set("Ethernet", '\uE839');
-icon_codes.set("ShareBroadband", '\uE83A');
-icon_codes.set("DirectAccess", '\uE83B');
-icon_codes.set("DialUp", '\uE83C');
-icon_codes.set("DefenderApp", '\uE83D');
-icon_codes.set("BatteryCharging9", '\uE83E');
-icon_codes.set("Battery10", '\uE83F');
-icon_codes.set("Pinned", '\uE840');
-icon_codes.set("PinFill", '\uE841');
-icon_codes.set("PinnedFill", '\uE842');
-icon_codes.set("PeriodKey", '\uE843');
-icon_codes.set("PuncKey", '\uE844');
-icon_codes.set("RevToggleKey", '\uE845');
-icon_codes.set("RightArrowKeyTime1", '\uE846');
-icon_codes.set("RightArrowKeyTime2", '\uE847');
-icon_codes.set("LeftQuote", '\uE848');
-icon_codes.set("RightQuote", '\uE849');
-icon_codes.set("DownShiftKey", '\uE84A');
-icon_codes.set("UpShiftKey", '\uE84B');
-icon_codes.set("PuncKey0", '\uE84C');
-icon_codes.set("PuncKeyLeftBottom", '\uE84D');
-icon_codes.set("RightArrowKeyTime3", '\uE84E');
-icon_codes.set("RightArrowKeyTime4", '\uE84F');
-icon_codes.set("Battery0", '\uE850');
-icon_codes.set("Battery1", '\uE851');
-icon_codes.set("Battery2", '\uE852');
-icon_codes.set("Battery3", '\uE853');
-icon_codes.set("Battery4", '\uE854');
-icon_codes.set("Battery5", '\uE855');
-icon_codes.set("Battery6", '\uE856');
-icon_codes.set("Battery7", '\uE857');
-icon_codes.set("Battery8", '\uE858');
-icon_codes.set("Battery9", '\uE859');
-icon_codes.set("BatteryCharging0", '\uE85A');
-icon_codes.set("BatteryCharging1", '\uE85B');
-icon_codes.set("BatteryCharging2", '\uE85C');
-icon_codes.set("BatteryCharging3", '\uE85D');
-icon_codes.set("BatteryCharging4", '\uE85E');
-icon_codes.set("BatteryCharging5", '\uE85F');
-icon_codes.set("BatteryCharging6", '\uE860');
-icon_codes.set("BatteryCharging7", '\uE861');
-icon_codes.set("BatteryCharging8", '\uE862');
-icon_codes.set("BatterySaver0", '\uE863');
-icon_codes.set("BatterySaver1", '\uE864');
-icon_codes.set("BatterySaver2", '\uE865');
-icon_codes.set("BatterySaver3", '\uE866');
-icon_codes.set("BatterySaver4", '\uE867');
-icon_codes.set("BatterySaver5", '\uE868');
-icon_codes.set("BatterySaver6", '\uE869');
-icon_codes.set("BatterySaver7", '\uE86A');
-icon_codes.set("BatterySaver8", '\uE86B');
-icon_codes.set("SignalBars1", '\uE86C');
-icon_codes.set("SignalBars2", '\uE86D');
-icon_codes.set("SignalBars3", '\uE86E');
-icon_codes.set("SignalBars4", '\uE86F');
-icon_codes.set("SignalBars5", '\uE870');
-icon_codes.set("SignalNotConnected", '\uE871');
-icon_codes.set("Wifi1", '\uE872');
-icon_codes.set("Wifi2", '\uE873');
-icon_codes.set("Wifi3", '\uE874');
-icon_codes.set("SIMLock", '\uE875');
-icon_codes.set("SIMMissing", '\uE876');
-icon_codes.set("Vibrate", '\uE877');
-icon_codes.set("RoamingInternational", '\uE878');
-icon_codes.set("RoamingDomestic", '\uE879');
-icon_codes.set("CallForwardInternational", '\uE87A');
-icon_codes.set("CallForwardRoaming", '\uE87B');
-icon_codes.set("JpnRomanji", '\uE87C');
-icon_codes.set("JpnRomanjiLock", '\uE87D');
-icon_codes.set("JpnRomanjiShift", '\uE87E');
-icon_codes.set("JpnRomanjiShiftLock", '\uE87F');
-icon_codes.set("StatusDataTransfer", '\uE880');
-icon_codes.set("StatusDataTransferVPN", '\uE881');
-icon_codes.set("StatusDualSIM2", '\uE882');
-icon_codes.set("StatusDualSIM2VPN", '\uE883');
-icon_codes.set("StatusDualSIM1", '\uE884');
-icon_codes.set("StatusDualSIM1VPN", '\uE885');
-icon_codes.set("StatusSGLTE", '\uE886');
-icon_codes.set("StatusSGLTECell", '\uE887');
-icon_codes.set("StatusSGLTEDataVPN", '\uE888');
-icon_codes.set("StatusVPN", '\uE889');
-icon_codes.set("WifiHotspot", '\uE88A');
-icon_codes.set("LanguageKor", '\uE88B');
-icon_codes.set("LanguageCht", '\uE88C');
-icon_codes.set("LanguageChs", '\uE88D');
-icon_codes.set("USB", '\uE88E');
-icon_codes.set("InkingToolFill", '\uE88F');
-icon_codes.set("View", '\uE890');
-icon_codes.set("HighlightFill", '\uE891');
-icon_codes.set("Previous", '\uE892');
-icon_codes.set("Next", '\uE893');
-icon_codes.set("Clear", '\uE894');
-icon_codes.set("Sync", '\uE895');
-icon_codes.set("Download", '\uE896');
-icon_codes.set("Help", '\uE897');
-icon_codes.set("Upload", '\uE898');
-icon_codes.set("Emoji", '\uE899');
-icon_codes.set("TwoPage", '\uE89A');
-icon_codes.set("LeaveChat", '\uE89B');
-icon_codes.set("MailForward", '\uE89C');
-icon_codes.set("RotateCamera", '\uE89E');
-icon_codes.set("ClosePane", '\uE89F');
-icon_codes.set("OpenPane", '\uE8A0');
-icon_codes.set("PreviewLink", '\uE8A1');
-icon_codes.set("AttachCamera", '\uE8A2');
-icon_codes.set("ZoomIn", '\uE8A3');
-icon_codes.set("Bookmarks", '\uE8A4');
-icon_codes.set("Document", '\uE8A5');
-icon_codes.set("ProtectedDocument", '\uE8A6');
-icon_codes.set("OpenInNewWindow", '\uE8A7');
-icon_codes.set("MailFill", '\uE8A8');
-icon_codes.set("ViewAll", '\uE8A9');
-icon_codes.set("VideoChat", '\uE8AA');
-icon_codes.set("Switch", '\uE8AB');
-icon_codes.set("Rename", '\uE8AC');
-icon_codes.set("Go", '\uE8AD');
-icon_codes.set("SurfaceHub", '\uE8AE');
-icon_codes.set("Remote", '\uE8AF');
-icon_codes.set("Click", '\uE8B0');
-icon_codes.set("Shuffle", '\uE8B1');
-icon_codes.set("Movies", '\uE8B2');
-icon_codes.set("SelectAll", '\uE8B3');
-icon_codes.set("Orientation", '\uE8B4');
-icon_codes.set("Import", '\uE8B5');
-icon_codes.set("ImportAll", '\uE8B6');
-icon_codes.set("Folder", '\uE8B7');
-icon_codes.set("Webcam", '\uE8B8');
-icon_codes.set("Picture", '\uE8B9');
-icon_codes.set("Caption", '\uE8BA');
-icon_codes.set("ChromeClose", '\uE8BB');
-icon_codes.set("ShowResults", '\uE8BC');
-icon_codes.set("Message", '\uE8BD');
-icon_codes.set("Leaf", '\uE8BE');
-icon_codes.set("CalendarDay", '\uE8BF');
-icon_codes.set("CalendarWeek", '\uE8C0');
-icon_codes.set("Characters", '\uE8C1');
-icon_codes.set("MailReplyAll", '\uE8C2');
-icon_codes.set("Read", '\uE8C3');
-icon_codes.set("ShowBcc", '\uE8C4');
-icon_codes.set("HideBcc", '\uE8C5');
-icon_codes.set("Cut", '\uE8C6');
-icon_codes.set("Copy", '\uE8C8');
-icon_codes.set("Important", '\uE8C9');
-icon_codes.set("MailReply", '\uE8CA');
-icon_codes.set("Sort", '\uE8CB');
-icon_codes.set("MobileTablet", '\uE8CC');
-icon_codes.set("DisconnectDrive", '\uE8CD');
-icon_codes.set("MapDrive", '\uE8CE');
-icon_codes.set("ContactPresence", '\uE8CF');
-icon_codes.set("Priority", '\uE8D0');
-icon_codes.set("GotoToday", '\uE8D1');
-icon_codes.set("Font", '\uE8D2');
-icon_codes.set("FontColor", '\uE8D3');
-icon_codes.set("Contact2", '\uE8D4');
-icon_codes.set("FolderFill", '\uE8D5');
-icon_codes.set("Audio", '\uE8D6');
-icon_codes.set("Permissions", '\uE8D7');
-icon_codes.set("DisableUpdates", '\uE8D8');
-icon_codes.set("Unfavorite", '\uE8D9');
-icon_codes.set("OpenLocal", '\uE8DA');
-icon_codes.set("Italic", '\uE8DB');
-icon_codes.set("Underline", '\uE8DC');
-icon_codes.set("Bold", '\uE8DD');
-icon_codes.set("MoveToFolder", '\uE8DE');
-icon_codes.set("LikeDislike", '\uE8DF');
-icon_codes.set("Dislike", '\uE8E0');
-icon_codes.set("Like", '\uE8E1');
-icon_codes.set("AlignRight", '\uE8E2');
-icon_codes.set("AlignCenter", '\uE8E3');
-icon_codes.set("AlignLeft", '\uE8E4');
-icon_codes.set("OpenFile", '\uE8E5');
-icon_codes.set("ClearSelection", '\uE8E6');
-icon_codes.set("FontDecrease", '\uE8E7');
-icon_codes.set("FontIncrease", '\uE8E8');
-icon_codes.set("FontSize", '\uE8E9');
-icon_codes.set("CellPhone", '\uE8EA');
-icon_codes.set("Reshare", '\uE8EB');
-icon_codes.set("Tag", '\uE8EC');
-icon_codes.set("RepeatOne", '\uE8ED');
-icon_codes.set("RepeatAll", '\uE8EE');
-icon_codes.set("Calculator", '\uE8EF');
-icon_codes.set("Directions", '\uE8F0');
-icon_codes.set("Library", '\uE8F1');
-icon_codes.set("ChatBubbles", '\uE8F2');
-icon_codes.set("PostUpdate", '\uE8F3');
-icon_codes.set("NewFolder", '\uE8F4');
-icon_codes.set("CalendarReply", '\uE8F5');
-icon_codes.set("UnsyncFolder", '\uE8F6');
-icon_codes.set("SyncFolder", '\uE8F7');
-icon_codes.set("BlockContact", '\uE8F8');
-icon_codes.set("SwitchApps", '\uE8F9');
-icon_codes.set("AddFriend", '\uE8FA');
-icon_codes.set("Accept", '\uE8FB');
-icon_codes.set("GoToStart", '\uE8FC');
-icon_codes.set("BulletedList", '\uE8FD');
-icon_codes.set("Scan", '\uE8FE');
-icon_codes.set("Preview", '\uE8FF');
-icon_codes.set("ZeroBars", '\uE904');
-icon_codes.set("OneBar", '\uE905');
-icon_codes.set("TwoBars", '\uE906');
-icon_codes.set("ThreeBars", '\uE907');
-icon_codes.set("FourBars", '\uE908');
-icon_codes.set("World", '\uE909');
-icon_codes.set("Comment", '\uE90A');
-icon_codes.set("MusicInfo", '\uE90B');
-icon_codes.set("DockLeft", '\uE90C');
-icon_codes.set("DockRight", '\uE90D');
-icon_codes.set("DockBottom", '\uE90E');
-icon_codes.set("Repair", '\uE90F');
-icon_codes.set("Accounts", '\uE910');
-icon_codes.set("DullSound", '\uE911');
-icon_codes.set("Manage", '\uE912');
-icon_codes.set("Street", '\uE913');
-icon_codes.set("Printer3D", '\uE914');
-icon_codes.set("RadioBullet", '\uE915');
-icon_codes.set("Stopwatch", '\uE916');
-icon_codes.set("Photo", '\uE91B');
-icon_codes.set("ActionCenter", '\uE91C');
-icon_codes.set("FullCircleMask", '\uE91F');
-icon_codes.set("ChromeMinimize", '\uE921');
-icon_codes.set("ChromeMaximize", '\uE922');
-icon_codes.set("ChromeRestore", '\uE923');
-icon_codes.set("Annotation", '\uE924');
-icon_codes.set("BackSpaceQWERTYSm", '\uE925');
-icon_codes.set("BackSpaceQWERTYMd", '\uE926');
-icon_codes.set("Swipe", '\uE927');
-icon_codes.set("Fingerprint", '\uE928');
-icon_codes.set("Handwriting", '\uE929');
-icon_codes.set("ChromeBackToWindow", '\uE92C');
-icon_codes.set("ChromeFullScreen", '\uE92D');
-icon_codes.set("KeyboardStandard", '\uE92E');
-icon_codes.set("KeyboardDismiss", '\uE92F');
-icon_codes.set("Completed", '\uE930');
-icon_codes.set("ChromeAnnotate", '\uE931');
-icon_codes.set("Label", '\uE932');
-icon_codes.set("IBeam", '\uE933');
-icon_codes.set("IBeamOutline", '\uE934');
-icon_codes.set("FlickDown", '\uE935');
-icon_codes.set("FlickUp", '\uE936');
-icon_codes.set("FlickLeft", '\uE937');
-icon_codes.set("FlickRight", '\uE938');
-icon_codes.set("FeedbackApp", '\uE939');
-icon_codes.set("MusicAlbum", '\uE93C');
-icon_codes.set("Streaming", '\uE93E');
-icon_codes.set("Code", '\uE943');
-icon_codes.set("ReturnToWindow", '\uE944');
-icon_codes.set("LightningBolt", '\uE945');
-icon_codes.set("Info", '\uE946');
-icon_codes.set("CalculatorMultiply", '\uE947');
-icon_codes.set("CalculatorAddition", '\uE948');
-icon_codes.set("CalculatorSubtract", '\uE949');
-icon_codes.set("CalculatorDivide", '\uE94A');
-icon_codes.set("CalculatorSquareroot", '\uE94B');
-icon_codes.set("CalculatorPercentage", '\uE94C');
-icon_codes.set("CalculatorNegate", '\uE94D');
-icon_codes.set("CalculatorEqualTo", '\uE94E');
-icon_codes.set("CalculatorBackspace", '\uE94F');
-icon_codes.set("Component", '\uE950');
-icon_codes.set("DMC", '\uE951');
-icon_codes.set("Dock", '\uE952');
-icon_codes.set("MultimediaDMS", '\uE953');
-icon_codes.set("MultimediaDVR", '\uE954');
-icon_codes.set("MultimediaPMP", '\uE955');
-icon_codes.set("PrintfaxPrinterFile", '\uE956');
-icon_codes.set("Sensor", '\uE957');
-icon_codes.set("StorageOptical", '\uE958');
-icon_codes.set("Communications", '\uE95A');
-icon_codes.set("Headset", '\uE95B');
-icon_codes.set("Projector", '\uE95D');
-icon_codes.set("Health", '\uE95E');
-icon_codes.set("Webcam2", '\uE960');
-icon_codes.set("Input", '\uE961');
-icon_codes.set("Mouse", '\uE962');
-icon_codes.set("Smartcard", '\uE963');
-icon_codes.set("SmartcardVirtual", '\uE964');
-icon_codes.set("MediaStorageTower", '\uE965');
-icon_codes.set("ReturnKeySm", '\uE966');
-icon_codes.set("GameConsole", '\uE967');
-icon_codes.set("Network", '\uE968');
-icon_codes.set("StorageNetworkWireless", '\uE969');
-icon_codes.set("StorageTape", '\uE96A');
-icon_codes.set("ChevronUpSmall", '\uE96D');
-icon_codes.set("ChevronDownSmall", '\uE96E');
-icon_codes.set("ChevronLeftSmall", '\uE96F');
-icon_codes.set("ChevronRightSmall", '\uE970');
-icon_codes.set("ChevronUpMed", '\uE971');
-icon_codes.set("ChevronDownMed", '\uE972');
-icon_codes.set("ChevronLeftMed", '\uE973');
-icon_codes.set("ChevronRightMed", '\uE974');
-icon_codes.set("Devices2", '\uE975');
-icon_codes.set("ExpandTile", '\uE976');
-icon_codes.set("PC1", '\uE977');
-icon_codes.set("PresenceChicklet", '\uE978');
-icon_codes.set("PresenceChickletVideo", '\uE979');
-icon_codes.set("Reply", '\uE97A');
-icon_codes.set("SetTile", '\uE97B');
-icon_codes.set("Type", '\uE97C');
-icon_codes.set("Korean", '\uE97D');
-icon_codes.set("HalfAlpha", '\uE97E');
-icon_codes.set("FullAlpha", '\uE97F');
-icon_codes.set("Key12On", '\uE980');
-icon_codes.set("ChineseChangjie", '\uE981');
-icon_codes.set("QWERTYOn", '\uE982');
-icon_codes.set("QWERTYOff", '\uE983');
-icon_codes.set("ChineseQuick", '\uE984');
-icon_codes.set("Japanese", '\uE985');
-icon_codes.set("FullHiragana", '\uE986');
-icon_codes.set("FullKatakana", '\uE987');
-icon_codes.set("HalfKatakana", '\uE988');
-icon_codes.set("ChineseBoPoMoFo", '\uE989');
-icon_codes.set("ChinesePinyin", '\uE98A');
-icon_codes.set("ConstructionCone", '\uE98F');
-icon_codes.set("XboxOneConsole", '\uE990');
-icon_codes.set("Volume0", '\uE992');
-icon_codes.set("Volume1", '\uE993');
-icon_codes.set("Volume2", '\uE994');
-icon_codes.set("Volume3", '\uE995');
-icon_codes.set("BatteryUnknown", '\uE996');
-icon_codes.set("WifiAttentionOverlay", '\uE998');
-icon_codes.set("Robot", '\uE99A');
-icon_codes.set("TapAndSend", '\uE9A1');
-icon_codes.set("PasswordKeyShow", '\uE9A8');
-icon_codes.set("PasswordKeyHide", '\uE9A9');
-icon_codes.set("BidiLtr", '\uE9AA');
-icon_codes.set("BidiRtl", '\uE9AB');
-icon_codes.set("ForwardSm", '\uE9AC');
-icon_codes.set("CommaKey", '\uE9AD');
-icon_codes.set("DashKey", '\uE9AE');
-icon_codes.set("DullSoundKey", '\uE9AF');
-icon_codes.set("HalfDullSound", '\uE9B0');
-icon_codes.set("RightDoubleQuote", '\uE9B1');
-icon_codes.set("LeftDoubleQuote", '\uE9B2');
-icon_codes.set("PuncKeyRightBottom", '\uE9B3');
-icon_codes.set("PuncKey1", '\uE9B4');
-icon_codes.set("PuncKey2", '\uE9B5');
-icon_codes.set("PuncKey3", '\uE9B6');
-icon_codes.set("PuncKey4", '\uE9B7');
-icon_codes.set("PuncKey5", '\uE9B8');
-icon_codes.set("PuncKey6", '\uE9B9');
-icon_codes.set("PuncKey9", '\uE9BA');
-icon_codes.set("PuncKey7", '\uE9BB');
-icon_codes.set("PuncKey8", '\uE9BC');
-icon_codes.set("Frigid", '\uE9CA');
-icon_codes.set("Diagnostic", '\uE9D9');
-icon_codes.set("Process", '\uE9F3');
-icon_codes.set("DisconnectDisplay", '\uEA14');
-icon_codes.set("Info2", '\uEA1F');
-icon_codes.set("ActionCenterAsterisk", '\uEA21');
-icon_codes.set("Beta", '\uEA24');
-icon_codes.set("SaveCopy", '\uEA35');
-icon_codes.set("List", '\uEA37');
-icon_codes.set("Asterisk", '\uEA38');
-icon_codes.set("ErrorBadge", '\uEA39');
-icon_codes.set("CircleRing", '\uEA3A');
-icon_codes.set("CircleFill", '\uEA3B');
-icon_codes.set("AllAppsMirrored", '\uEA40');
-icon_codes.set("BookmarksMirrored", '\uEA41');
-icon_codes.set("BulletedListMirrored", '\uEA42');
-icon_codes.set("CallForwardInternationalMirrored", '\uEA43');
-icon_codes.set("CallForwardRoamingMirrored", '\uEA44');
-icon_codes.set("ChromeBackMirrored", '\uEA47');
-icon_codes.set("ClearSelectionMirrored", '\uEA48');
-icon_codes.set("ClosePaneMirrored", '\uEA49');
-icon_codes.set("ContactInfoMirrored", '\uEA4A');
-icon_codes.set("DockRightMirrored", '\uEA4B');
-icon_codes.set("DockLeftMirrored", '\uEA4C');
-icon_codes.set("ExpandTileMirrored", '\uEA4E');
-icon_codes.set("GoMirrored", '\uEA4F');
-icon_codes.set("GripperResizeMirrored", '\uEA50');
-icon_codes.set("HelpMirrored", '\uEA51');
-icon_codes.set("ImportMirrored", '\uEA52');
-icon_codes.set("ImportAllMirrored", '\uEA53');
-icon_codes.set("LeaveChatMirrored", '\uEA54');
-icon_codes.set("ListMirrored", '\uEA55');
-icon_codes.set("MailForwardMirrored", '\uEA56');
-icon_codes.set("MailReplyMirrored", '\uEA57');
-icon_codes.set("MailReplyAllMirrored", '\uEA58');
-icon_codes.set("OpenPaneMirrored", '\uEA5B');
-icon_codes.set("OpenWithMirrored", '\uEA5C');
-icon_codes.set("ParkingLocationMirrored", '\uEA5E');
-icon_codes.set("ResizeMouseMediumMirrored", '\uEA5F');
-icon_codes.set("ResizeMouseSmallMirrored", '\uEA60');
-icon_codes.set("ResizeMouseTallMirrored", '\uEA61');
-icon_codes.set("ResizeTouchNarrowerMirrored", '\uEA62');
-icon_codes.set("SendMirrored", '\uEA63');
-icon_codes.set("SendFillMirrored", '\uEA64');
-icon_codes.set("ShowResultsMirrored", '\uEA65');
-icon_codes.set("Media", '\uEA69');
-icon_codes.set("SyncError", '\uEA6A');
-icon_codes.set("Devices3", '\uEA6C');
-icon_codes.set("Lightbulb", '\uEA80');
-icon_codes.set("StatusCircle", '\uEA81');
-icon_codes.set("StatusTriangle", '\uEA82');
-icon_codes.set("StatusError", '\uEA83');
-icon_codes.set("StatusWarning", '\uEA84');
-icon_codes.set("Puzzle", '\uEA86');
-icon_codes.set("CalendarSolid", '\uEA89');
-icon_codes.set("HomeSolid", '\uEA8A');
-icon_codes.set("ParkingLocationSolid", '\uEA8B');
-icon_codes.set("ContactSolid", '\uEA8C');
-icon_codes.set("ConstructionSolid", '\uEA8D');
-icon_codes.set("AccidentSolid", '\uEA8E');
-icon_codes.set("Ringer", '\uEA8F');
-icon_codes.set("ThoughtBubble", '\uEA91');
-icon_codes.set("HeartBroken", '\uEA92');
-icon_codes.set("BatteryCharging10", '\uEA93');
-icon_codes.set("BatterySaver9", '\uEA94');
-icon_codes.set("BatterySaver10", '\uEA95');
-icon_codes.set("CallForwardingMirrored", '\uEA97');
-icon_codes.set("MultiSelectMirrored", '\uEA98');
-icon_codes.set("Broom", '\uEA99');
-icon_codes.set("Trackers", '\uEADF');
-icon_codes.set("PieSingle", '\uEB05');
-icon_codes.set("StockDown", '\uEB0F');
-icon_codes.set("StockUp", '\uEB11');
-icon_codes.set("Drop", '\uEB42');
-icon_codes.set("BusSolid", '\uEB47');
-icon_codes.set("FerrySolid", '\uEB48');
-icon_codes.set("StartPointSolid", '\uEB49');
-icon_codes.set("StopPointSolid", '\uEB4A');
-icon_codes.set("EndPointSolid", '\uEB4B');
-icon_codes.set("AirplaneSolid", '\uEB4C');
-icon_codes.set("TrainSolid", '\uEB4D');
-icon_codes.set("WorkSolid", '\uEB4E');
-icon_codes.set("ReminderFill", '\uEB4F');
-icon_codes.set("Reminder", '\uEB50');
-icon_codes.set("Heart", '\uEB51');
-icon_codes.set("HeartFill", '\uEB52');
-icon_codes.set("EthernetError", '\uEB55');
-icon_codes.set("EthernetWarning", '\uEB56');
-icon_codes.set("StatusConnecting1", '\uEB57');
-icon_codes.set("StatusConnecting2", '\uEB58');
-icon_codes.set("StatusUnsecure", '\uEB59');
-icon_codes.set("WifiError0", '\uEB5A');
-icon_codes.set("WifiError1", '\uEB5B');
-icon_codes.set("WifiError2", '\uEB5C');
-icon_codes.set("WifiError3", '\uEB5D');
-icon_codes.set("WifiError4", '\uEB5E');
-icon_codes.set("WifiWarning0", '\uEB5F');
-icon_codes.set("WifiWarning1", '\uEB60');
-icon_codes.set("WifiWarning2", '\uEB61');
-icon_codes.set("WifiWarning3", '\uEB62');
-icon_codes.set("WifiWarning4", '\uEB63');
-icon_codes.set("Devices4", '\uEB66');
-icon_codes.set("NUIIris", '\uEB67');
-icon_codes.set("NUIFace", '\uEB68');
-icon_codes.set("EditMirrored", '\uEB7E');
-icon_codes.set("NUIFPStartSlideHand", '\uEB82');
-icon_codes.set("NUIFPStartSlideAction", '\uEB83');
-icon_codes.set("NUIFPContinueSlideHand", '\uEB84');
-icon_codes.set("NUIFPContinueSlideAction", '\uEB85');
-icon_codes.set("NUIFPRollRightHand", '\uEB86');
-icon_codes.set("NUIFPRollRightHandAction", '\uEB87');
-icon_codes.set("NUIFPRollLeftHand", '\uEB88');
-icon_codes.set("NUIFPRollLeftAction", '\uEB89');
-icon_codes.set("NUIFPPressHand", '\uEB8A');
-icon_codes.set("NUIFPPressAction", '\uEB8B');
-icon_codes.set("NUIFPPressRepeatHand", '\uEB8C');
-icon_codes.set("NUIFPPressRepeatAction", '\uEB8D');
-icon_codes.set("StatusErrorFull", '\uEB90');
-icon_codes.set("MultitaskExpanded", '\uEB91');
-icon_codes.set("Certificate", '\uEB95');
-icon_codes.set("BackSpaceQWERTYLg", '\uEB96');
-icon_codes.set("ReturnKeyLg", '\uEB97');
-icon_codes.set("FastForward", '\uEB9D');
-icon_codes.set("Rewind", '\uEB9E');
-icon_codes.set("Photo2", '\uEB9F');
-icon_codes.set("MobBattery0", '\uEBA0');
-icon_codes.set("MobBattery1", '\uEBA1');
-icon_codes.set("MobBattery2", '\uEBA2');
-icon_codes.set("MobBattery3", '\uEBA3');
-icon_codes.set("MobBattery4", '\uEBA4');
-icon_codes.set("MobBattery5", '\uEBA5');
-icon_codes.set("MobBattery6", '\uEBA6');
-icon_codes.set("MobBattery7", '\uEBA7');
-icon_codes.set("MobBattery8", '\uEBA8');
-icon_codes.set("MobBattery9", '\uEBA9');
-icon_codes.set("MobBattery10", '\uEBAA');
-icon_codes.set("MobBatteryCharging0", '\uEBAB');
-icon_codes.set("MobBatteryCharging1", '\uEBAC');
-icon_codes.set("MobBatteryCharging2", '\uEBAD');
-icon_codes.set("MobBatteryCharging3", '\uEBAE');
-icon_codes.set("MobBatteryCharging4", '\uEBAF');
-icon_codes.set("MobBatteryCharging5", '\uEBB0');
-icon_codes.set("MobBatteryCharging6", '\uEBB1');
-icon_codes.set("MobBatteryCharging7", '\uEBB2');
-icon_codes.set("MobBatteryCharging8", '\uEBB3');
-icon_codes.set("MobBatteryCharging9", '\uEBB4');
-icon_codes.set("MobBatteryCharging10", '\uEBB5');
-icon_codes.set("MobBatterySaver0", '\uEBB6');
-icon_codes.set("MobBatterySaver1", '\uEBB7');
-icon_codes.set("MobBatterySaver2", '\uEBB8');
-icon_codes.set("MobBatterySaver3", '\uEBB9');
-icon_codes.set("MobBatterySaver4", '\uEBBA');
-icon_codes.set("MobBatterySaver5", '\uEBBB');
-icon_codes.set("MobBatterySaver6", '\uEBBC');
-icon_codes.set("MobBatterySaver7", '\uEBBD');
-icon_codes.set("MobBatterySaver8", '\uEBBE');
-icon_codes.set("MobBatterySaver9", '\uEBBF');
-icon_codes.set("MobBatterySaver10", '\uEBC0');
-icon_codes.set("DictionaryCloud", '\uEBC3');
-icon_codes.set("ResetDrive", '\uEBC4');
-icon_codes.set("VolumeBars", '\uEBC5');
-icon_codes.set("Project", '\uEBC6');
-icon_codes.set("AdjustHologram", '\uEBD2');
-icon_codes.set("WifiCallBars", '\uEBD4');
-icon_codes.set("WifiCall0", '\uEBD5');
-icon_codes.set("WifiCall1", '\uEBD6');
-icon_codes.set("WifiCall2", '\uEBD7');
-icon_codes.set("WifiCall3", '\uEBD8');
-icon_codes.set("WifiCall4", '\uEBD9');
-icon_codes.set("DeviceDiscovery", '\uEBDE');
-icon_codes.set("WindDirection", '\uEBE6');
-icon_codes.set("RightArrowKeyTime0", '\uEBE7');
-icon_codes.set("TabletMode", '\uEBFC');
-icon_codes.set("StatusCircleLeft", '\uEBFD');
-icon_codes.set("StatusTriangleLeft", '\uEBFE');
-icon_codes.set("StatusErrorLeft", '\uEBFF');
-icon_codes.set("StatusWarningLeft", '\uEC00');
-icon_codes.set("MobBatteryUnknown", '\uEC02');
-icon_codes.set("NetworkTower", '\uEC05');
-icon_codes.set("CityNext", '\uEC06');
-icon_codes.set("CityNext2", '\uEC07');
-icon_codes.set("Courthouse", '\uEC08');
-icon_codes.set("Groceries", '\uEC09');
-icon_codes.set("Sustainable", '\uEC0A');
-icon_codes.set("BuildingEnergy", '\uEC0B');
-icon_codes.set("ToggleFilled", '\uEC11');
-icon_codes.set("ToggleBorder", '\uEC12');
-icon_codes.set("SliderThumb", '\uEC13');
-icon_codes.set("ToggleThumb", '\uEC14');
-icon_codes.set("MiracastLogoSmall", '\uEC15');
-icon_codes.set("MiracastLogoLarge", '\uEC16');
-icon_codes.set("PLAP", '\uEC19');
-icon_codes.set("Badge", '\uEC1B');
-icon_codes.set("SignalRoaming", '\uEC1E');
-icon_codes.set("MobileLocked", '\uEC20');
-icon_codes.set("InsiderHubApp", '\uEC24');
-icon_codes.set("PersonalFolder", '\uEC25');
-icon_codes.set("HomeGroup", '\uEC26');
-icon_codes.set("MyNetwork", '\uEC27');
-icon_codes.set("KeyboardFull", '\uEC31');
-icon_codes.set("MobSignal1", '\uEC37');
-icon_codes.set("MobSignal2", '\uEC38');
-icon_codes.set("MobSignal3", '\uEC39');
-icon_codes.set("MobSignal4", '\uEC3A');
-icon_codes.set("MobSignal5", '\uEC3B');
-icon_codes.set("MobWifi1", '\uEC3C');
-icon_codes.set("MobWifi2", '\uEC3D');
-icon_codes.set("MobWifi3", '\uEC3E');
-icon_codes.set("MobWifi4", '\uEC3F');
-icon_codes.set("MobAirplane", '\uEC40');
-icon_codes.set("MobBluetooth", '\uEC41');
-icon_codes.set("MobActionCenter", '\uEC42');
-icon_codes.set("MobLocation", '\uEC43');
-icon_codes.set("MobWifiHotspot", '\uEC44');
-icon_codes.set("LanguageJpn", '\uEC45');
-icon_codes.set("MobQuietHours", '\uEC46');
-icon_codes.set("MobDrivingMode", '\uEC47');
-icon_codes.set("SpeedOff", '\uEC48');
-icon_codes.set("SpeedMedium", '\uEC49');
-icon_codes.set("SpeedHigh", '\uEC4A');
-icon_codes.set("ThisPC", '\uEC4E');
-icon_codes.set("MusicNote", '\uEC4F');
-icon_codes.set("FileExplorer", '\uEC50');
-icon_codes.set("FileExplorerApp", '\uEC51');
-icon_codes.set("LeftArrowKeyTime0", '\uEC52');
-icon_codes.set("MicOff", '\uEC54');
-icon_codes.set("MicSleep", '\uEC55');
-icon_codes.set("MicError", '\uEC56');
-icon_codes.set("PlaybackRate1x", '\uEC57');
-icon_codes.set("PlaybackRateOther", '\uEC58');
-icon_codes.set("CashDrawer", '\uEC59');
-icon_codes.set("BarcodeScanner", '\uEC5A');
-icon_codes.set("ReceiptPrinter", '\uEC5B');
-icon_codes.set("MagStripeReader", '\uEC5C');
-icon_codes.set("CompletedSolid", '\uEC61');
-icon_codes.set("CompanionApp", '\uEC64');
-icon_codes.set("SwipeRevealArt", '\uEC6D');
-icon_codes.set("MicOn", '\uEC71');
-icon_codes.set("MicClipping", '\uEC72');
-icon_codes.set("TabletSelected", '\uEC74');
-icon_codes.set("MobileSelected", '\uEC75');
-icon_codes.set("LaptopSelected", '\uEC76');
-icon_codes.set("TVMonitorSelected", '\uEC77');
-icon_codes.set("DeveloperTools", '\uEC7A');
-icon_codes.set("MobCallForwarding", '\uEC7E');
-icon_codes.set("MobCallForwardingMirrored", '\uEC7F');
-icon_codes.set("BodyCam", '\uEC80');
-icon_codes.set("PoliceCar", '\uEC81');
-icon_codes.set("Draw", '\uEC87');
-icon_codes.set("DrawSolid", '\uEC88');
-icon_codes.set("LowerBrightness", '\uEC8A');
-icon_codes.set("ScrollUpDown", '\uEC8F');
-icon_codes.set("DateTime", '\uEC92');
-icon_codes.set("Tiles", '\uECA5');
-icon_codes.set("PartyLeader", '\uECA7');
-icon_codes.set("AppIconDefault", '\uECAA');
-icon_codes.set("AddSurfaceHub", '\uECC4');
-icon_codes.set("DevUpdate", '\uECC5');
-icon_codes.set("Unit", '\uECC6');
-icon_codes.set("AddTo", '\uECC8');
-icon_codes.set("RemoveFrom", '\uECC9');
-icon_codes.set("RadioBtnOff", '\uECCA');
-icon_codes.set("RadioBtnOn", '\uECCB');
-icon_codes.set("RadioBullet2", '\uECCC');
-icon_codes.set("ExploreContent", '\uECCD');
-icon_codes.set("ScrollMode", '\uECE7');
-icon_codes.set("ZoomMode", '\uECE8');
-icon_codes.set("PanMode", '\uECE9');
-icon_codes.set("WiredUSB", '\uECF0');
-icon_codes.set("WirelessUSB", '\uECF1');
-icon_codes.set("USBSafeConnect", '\uECF3');
-icon_codes.set("ActionCenterNotificationMirrored", '\uED0C');
-icon_codes.set("ActionCenterMirrored", '\uED0D');
-icon_codes.set("ResetDevice", '\uED10');
-icon_codes.set("Feedback", '\uED15');
-icon_codes.set("Subtitles", '\uED1E');
-icon_codes.set("SubtitlesAudio", '\uED1F');
-icon_codes.set("CalendarMirrored", '\uED28');
-icon_codes.set("eSIM", '\uED2A');
-icon_codes.set("eSIMNoProfile", '\uED2B');
-icon_codes.set("eSIMLocked", '\uED2C');
-icon_codes.set("eSIMBusy", '\uED2D');
-icon_codes.set("SignalError", '\uED2E');
-icon_codes.set("StreamingEnterprise", '\uED2F');
-icon_codes.set("Headphone0", '\uED30');
-icon_codes.set("Headphone1", '\uED31');
-icon_codes.set("Headphone2", '\uED32');
-icon_codes.set("Headphone3", '\uED33');
-icon_codes.set("KeyboardBrightness", '\uED39');
-icon_codes.set("KeyboardLowerBrightness", '\uED3A');
-icon_codes.set("SkipBack10", '\uED3C');
-icon_codes.set("SkipForward30", '\uED3D');
-icon_codes.set("TreeFolderFolder", '\uED41');
-icon_codes.set("TreeFolderFolderFill", '\uED42');
-icon_codes.set("TreeFolderFolderOpen", '\uED43');
-icon_codes.set("TreeFolderFolderOpenFill", '\uED44');
-icon_codes.set("MultimediaDMP", '\uED47');
-icon_codes.set("KeyboardOneHanded", '\uED4C');
-icon_codes.set("Narrator", '\uED4D');
-icon_codes.set("EmojiTabPeople", '\uED53');
-icon_codes.set("EmojiTabSmilesAnimals", '\uED54');
-icon_codes.set("EmojiTabCelebrationObjects", '\uED55');
-icon_codes.set("EmojiTabFoodPlants", '\uED56');
-icon_codes.set("EmojiTabTransitPlaces", '\uED57');
-icon_codes.set("EmojiTabSymbols", '\uED58');
-icon_codes.set("EmojiTabTextSmiles", '\uED59');
-icon_codes.set("EmojiTabFavorites", '\uED5A');
-icon_codes.set("EmojiSwatch", '\uED5B');
-icon_codes.set("ConnectApp", '\uED5C');
-icon_codes.set("CompanionDeviceFramework", '\uED5D');
-icon_codes.set("Ruler", '\uED5E');
-icon_codes.set("FingerInking", '\uED5F');
-icon_codes.set("StrokeErase", '\uED60');
-icon_codes.set("PointErase", '\uED61');
-icon_codes.set("ClearAllInk", '\uED62');
-icon_codes.set("Pencil", '\uED63');
-icon_codes.set("Marker", '\uED64');
-icon_codes.set("InkingCaret", '\uED65');
-icon_codes.set("InkingColorOutline", '\uED66');
-icon_codes.set("InkingColorFill", '\uED67');
-icon_codes.set("HardDrive", '\uEDA2');
-icon_codes.set("NetworkAdapter", '\uEDA3');
-icon_codes.set("Touchscreen", '\uEDA4');
-icon_codes.set("NetworkPrinter", '\uEDA5');
-icon_codes.set("CloudPrinter", '\uEDA6');
-icon_codes.set("KeyboardShortcut", '\uEDA7');
-icon_codes.set("BrushSize", '\uEDA8');
-icon_codes.set("NarratorForward", '\uEDA9');
-icon_codes.set("NarratorForwardMirrored", '\uEDAA');
-icon_codes.set("SyncBadge12", '\uEDAB');
-icon_codes.set("RingerBadge12", '\uEDAC');
-icon_codes.set("AsteriskBadge12", '\uEDAD');
-icon_codes.set("ErrorBadge12", '\uEDAE');
-icon_codes.set("CircleRingBadge12", '\uEDAF');
-icon_codes.set("CircleFillBadge12", '\uEDB0');
-icon_codes.set("ImportantBadge12", '\uEDB1');
-icon_codes.set("MailBadge12", '\uEDB3');
-icon_codes.set("PauseBadge12", '\uEDB4');
-icon_codes.set("PlayBadge12", '\uEDB5');
-icon_codes.set("PenWorkspace", '\uEDC6');
-icon_codes.set("Export", '\uEDE1');
-icon_codes.set("ExportMirrored", '\uEDE2');
-icon_codes.set("CaligraphyPen", '\uEDFB');
-icon_codes.set("ReplyMirrored", '\uEE35');
-icon_codes.set("LockscreenDesktop", '\uEE3F');
-icon_codes.set("Multitask16", '\uEE40');
-icon_codes.set("Play36", '\uEE4A');
-icon_codes.set("PenPalette", '\uEE56');
-icon_codes.set("GuestUser", '\uEE57');
-icon_codes.set("SettingsBattery", '\uEE63');
-icon_codes.set("TaskbarPhone", '\uEE64');
-icon_codes.set("LockScreenGlance", '\uEE65');
-icon_codes.set("ImageExport", '\uEE71');
-icon_codes.set("WifiEthernet", '\uEE77');
-icon_codes.set("ActionCenterQuiet", '\uEE79');
-icon_codes.set("ActionCenterQuietNotification", '\uEE7A');
-icon_codes.set("TrackersMirrored", '\uEE92');
-icon_codes.set("DateTimeMirrored", '\uEE93');
-icon_codes.set("Wheel", '\uEE94');
-icon_codes.set("PenWorkspaceMirrored", '\uEF15');
-icon_codes.set("PenPaletteMirrored", '\uEF16');
-icon_codes.set("StrokeEraseMirrored", '\uEF17');
-icon_codes.set("PointEraseMirrored", '\uEF18');
-icon_codes.set("ClearAllInkMirrored", '\uEF19');
-icon_codes.set("BackgroundToggle", '\uEF1F');
-icon_codes.set("Marquee", '\uEF20');
+export const icm = new Map()
+.set("CheckMarkLegacy","\uE001")
+.set("CheckboxFillLegacy","\uE002")
+.set("CheckboxLegacy","\uE003")
+.set("CheckboxIndeterminateLegacy","\uE004")
+.set("CheckboxCompositeReversedLegacy","\uE005")
+.set("HeartLegacy","\uE006")
+.set("HeartBrokenLegacy","\uE007")
+.set("CheckMarkZeroWidthLegacy","\uE008")
+.set("CheckboxFillZeroWidthLegacy","\uE009")
+.set("RatingStarFillZeroWidthLegacy","\uE00A")
+.set("HeartFillZeroWidthLegacy","\uE00B")
+.set("HeartBrokenZeroWidthLegacy","\uE00C")
+.set("ScrollChevronLeftLegacy","\uE00E")
+.set("ScrollChevronRightLegacy","\uE00F")
+.set("ScrollChevronUpLegacy","\uE010")
+.set("ScrollChevronDownLegacy","\uE011")
+.set("ChevronLeft3Legacy","\uE012")
+.set("ChevronRight3Legacy","\uE013")
+.set("ChevronUp3Legacy","\uE014")
+.set("ChevronDown3Legacy","\uE015")
+.set("ScrollChevronLeftBoldLegacy","\uE016")
+.set("ScrollChevronRightBoldLegacy","\uE017")
+.set("ScrollChevronUpBoldLegacy","\uE018")
+.set("ScrollChevronDownBoldLegacy","\uE019")
+.set("RevealPasswordLegacy","\uE052")
+.set("EaseOfAccessLegacy","\uE07F")
+.set("CheckmarkListviewLegacy","\uE081")
+.set("RatingStarFillReducedPaddingHTMLLegacy","\uE082")
+.set("KeyboardStandardLegacy","\uE087")
+.set("KeyboardSplitLegacy","\uE08F")
+.set("SearchboxLegacy","\uE094")
+.set("ChevronLeft1Legacy","\uE096")
+.set("ChevronRight1Legacy","\uE097")
+.set("ChevronUp1Legacy","\uE098")
+.set("ChevronDown1Legacy","\uE099")
+.set("ChevronLeft2Legacy","\uE09A")
+.set("ChevronRight2Legacy","\uE09B")
+.set("ChevronUp2Legacy","\uE09C")
+.set("ChevronDown2Legacy","\uE09D")
+.set("ChevronLeft4Legacy","\uE09E")
+.set("ChevronRight4Legacy","\uE09F")
+.set("ChevronUp4Legacy","\uE0A0")
+.set("ChevronDown4Legacy","\uE0A1")
+.set("CheckboxCompositeLegacy","\uE0A2")
+.set("HeartFillLegacy","\uE0A5")
+.set("BackBttnArrow42Legacy","\uE0A6")
+.set("BackBttnMirroredArrow42Legacy","\uE0AB")
+.set("BackBttnMirroredArrow20Legacy","\uE0AD")
+.set("ArrowHTMLLegacyMirrored","\uE0AE")
+.set("RatingStarFillLegacy","\uE0B4")
+.set("RatingStarFillSmallLegacy","\uE0B5")
+.set("SemanticZoomLegacy","\uE0B8")
+.set("BackBttnArrow20Legacy","\uE0C4")
+.set("ArrowHTMLLegacy","\uE0D5")
+.set("ChevronFlipLeftLegacy","\uE0E2")
+.set("ChevronFlipRightLegacy","\uE0E3")
+.set("ChevronFlipUpLegacy","\uE0E4")
+.set("ChevronFlipDownLegacy","\uE0E5")
+.set("CheckmarkMenuLegacy","\uE0E7")
+.set("PreviousLegacy","\uE100")
+.set("NextLegacy","\uE101")
+.set("PlayLegacy","\uE102")
+.set("PauseLegacy","\uE103")
+.set("EditLegacy","\uE104")
+.set("SaveLegacy","\uE105")
+.set("ClearLegacy","\uE106")
+.set("DeleteLegacy","\uE107")
+.set("RemoveLegacy","\uE108")
+.set("AddLegacy","\uE109")
+.set("CancelLegacy","\uE10A")
+.set("AcceptLegacy","\uE10B")
+.set("MoreLegacy","\uE10C")
+.set("RedoLegacy","\uE10D")
+.set("UndoLegacy","\uE10E")
+.set("HomeLegacy","\uE10F")
+.set("UpLegacy","\uE110")
+.set("ForwardLegacy","\uE111")
+.set("BackLegacy","\uE112")
+.set("FavoriteLegacy","\uE113")
+.set("CameraLegacy","\uE114")
+.set("SettingsLegacy","\uE115")
+.set("VideoLegacy","\uE116")
+.set("SyncLegacy","\uE117")
+.set("DownloadLegacy","\uE118")
+.set("MailLegacy","\uE119")
+.set("FindLegacy","\uE11A")
+.set("HelpLegacy","\uE11B")
+.set("UploadLegacy","\uE11C")
+.set("EmojiLegacy","\uE11D")
+.set("TwoPageLegacy","\uE11E")
+.set("LeaveChatLegacy","\uE11F")
+.set("MailForwardLegacy","\uE120")
+.set("ClockLegacy","\uE121")
+.set("SendLegacy","\uE122")
+.set("CropLegacy","\uE123")
+.set("RotateCameraLegacy","\uE124")
+.set("PeopleLegacy","\uE125")
+.set("ClosePaneLegacy","\uE126")
+.set("OpenPaneLegacy","\uE127")
+.set("WorldLegacy","\uE128")
+.set("FlagLegacy","\uE129")
+.set("PreviewLinkLegacy","\uE12A")
+.set("GlobeLegacy","\uE12B")
+.set("TrimLegacy","\uE12C")
+.set("AttachCameraLegacy","\uE12D")
+.set("ZoomInLegacy","\uE12E")
+.set("BookmarksLegacy","\uE12F")
+.set("DocumentLegacy","\uE130")
+.set("ProtectedDocumentLegacy","\uE131")
+.set("PageFillLegacy","\uE132")
+.set("MultiSelectLegacy","\uE133")
+.set("CommentLegacy","\uE134")
+.set("MailFillLegacy","\uE135")
+.set("ContactInfoLegacy","\uE136")
+.set("HangUpLegacy","\uE137")
+.set("ViewAllLegacy","\uE138")
+.set("MapPinLegacy","\uE139")
+.set("PhoneLegacy","\uE13A")
+.set("VideoChatLegacy","\uE13B")
+.set("SwitchLegacy","\uE13C")
+.set("ContactLegacy","\uE13D")
+.set("RenameLegacy","\uE13E")
+.set("ExpandTileLegacy","\uE13F")
+.set("ReduceTileLegacy","\uE140")
+.set("PinLegacy","\uE141")
+.set("MusicInfoLegacy","\uE142")
+.set("GoLegacy","\uE143")
+.set("KeyBoardLegacy","\uE144")
+.set("DockLeftLegacy","\uE145")
+.set("DockRightLegacy","\uE146")
+.set("DockBottomLegacy","\uE147")
+.set("RemoteLegacy","\uE148")
+.set("RefreshLegacy","\uE149")
+.set("RotateLegacy","\uE14A")
+.set("ShuffleLegacy","\uE14B")
+.set("ListLegacy","\uE14C")
+.set("ShopLegacy","\uE14D")
+.set("SelectAllLegacy","\uE14E")
+.set("OrientationLegacy","\uE14F")
+.set("ImportLegacy","\uE150")
+.set("ImportAllLegacy","\uE151")
+.set("ShowAllFiles3Legacy","\uE152")
+.set("ShowAllFiles1Legacy","\uE153")
+.set("ShowAllFilesLegacy","\uE154")
+.set("BrowsePhotosLegacy","\uE155")
+.set("WebcamLegacy","\uE156")
+.set("PictureLegacy","\uE158")
+.set("SaveLocalLegacy","\uE159")
+.set("CaptionLegacy","\uE15A")
+.set("StopLegacy","\uE15B")
+.set("ShowResultsLegacy","\uE15C")
+.set("VolumeLegacy","\uE15D")
+.set("RepairLegacy","\uE15E")
+.set("MessageLegacy","\uE15F")
+.set("PageLegacy","\uE160")
+.set("CalendarDayLegacy","\uE161")
+.set("CalendarWeekLegacy","\uE162")
+.set("CalendarLegacy","\uE163")
+.set("CharactersLegacy","\uE164")
+.set("MailReplyAllLegacy","\uE165")
+.set("ReadLegacy","\uE166")
+.set("LinkLegacy","\uE167")
+.set("AccountsLegacy","\uE168")
+.set("ShowBccLegacy","\uE169")
+.set("HideBccLegacy","\uE16A")
+.set("CutLegacy","\uE16B")
+.set("AttachLegacy","\uE16C")
+.set("PasteLegacy","\uE16D")
+.set("FilterLegacy","\uE16E")
+.set("CopyLegacy","\uE16F")
+.set("Emoji2Legacy","\uE170")
+.set("ImportantLegacy","\uE171")
+.set("MailReplyLegacy","\uE172")
+.set("SlideshowLegacy","\uE173")
+.set("SortLegacy","\uE174")
+.set("ListLegacyMirrored","\uE175")
+.set("ExpandTileLegacyMirrored","\uE176")
+.set("ReduceTileLegacyMirrored","\uE177")
+.set("ManageLegacy","\uE178")
+.set("AllAppsLegacy","\uE179")
+.set("DisconnectDriveLegacy","\uE17A")
+.set("MapDriveLegacy","\uE17B")
+.set("NewWindowLegacy","\uE17C")
+.set("OpenWithLegacy","\uE17D")
+.set("ContactPresenceLegacy","\uE181")
+.set("PriorityLegacy","\uE182")
+.set("UploadSkyDriveLegacy","\uE183")
+.set("GotoTodayLegacy","\uE184")
+.set("FontLegacy","\uE185")
+.set("FontColorLegacy","\uE186")
+.set("Contact2Legacy","\uE187")
+.set("FolderLegacy","\uE188")
+.set("AudioLegacy","\uE189")
+.set("PlaceFolderLegacy","\uE18A")
+.set("ViewLegacy","\uE18B")
+.set("SetlockScreenLegacy","\uE18C")
+.set("SetTileLegacy","\uE18D")
+.set("CCJapanLegacy","\uE18E")
+.set("CCEuroLegacy","\uE18F")
+.set("CCLegacy","\uE190")
+.set("StopSlideshowLegacy","\uE191")
+.set("PermissionsLegacy","\uE192")
+.set("HighlightLegacy","\uE193")
+.set("DisableUpdatesLegacy","\uE194")
+.set("UnfavoriteLegacy","\uE195")
+.set("UnpinLegacy","\uE196")
+.set("OpenLocalLegacy","\uE197")
+.set("MuteLegacy","\uE198")
+.set("ItalicLegacy","\uE199")
+.set("UnderlineLegacy","\uE19A")
+.set("BoldLegacy","\uE19B")
+.set("MoveToFolderLegacy","\uE19C")
+.set("LikeDislikeLegacy","\uE19D")
+.set("DislikeLegacy","\uE19E")
+.set("LikeLegacy","\uE19F")
+.set("AlignRightLegacy","\uE1A0")
+.set("AlignCenterLegacy","\uE1A1")
+.set("AlignLeftLegacy","\uE1A2")
+.set("ZoomLegacy","\uE1A3")
+.set("ZoomOutLegacy","\uE1A4")
+.set("OpenFileLegacy","\uE1A5")
+.set("OtherUserLegacy","\uE1A6")
+.set("AdminLegacy","\uE1A7")
+.set("MailForwardLegacyMirrored","\uE1A8")
+.set("GoLegacyMirrored","\uE1AA")
+.set("DockLeftLegacyMirrored","\uE1AB")
+.set("DockRightLegacyMirrored","\uE1AC")
+.set("ImportLegacyMirrored","\uE1AD")
+.set("ImportAllLegacyMirrored","\uE1AE")
+.set("MailReplyLegacyMirrored","\uE1AF")
+.set("ItalicCLegacy","\uE1B0")
+.set("BoldGLegacy","\uE1B1")
+.set("UnderlineSLegacy","\uE1B2")
+.set("BoldFLegacy","\uE1B3")
+.set("ItalicKLegacy","\uE1B4")
+.set("UnderlineULegacy","\uE1B5")
+.set("ItalicILegacy","\uE1B6")
+.set("BoldNLegacy","\uE1B7")
+.set("UnderlineRussianLegacy","\uE1B8")
+.set("BoldRussionLegacy","\uE1B9")
+.set("FontStyleKoreanLegacy","\uE1BA")
+.set("UnderlineLKoreanLegacy","\uE1BB")
+.set("ItalicKoreanLegacy","\uE1BC")
+.set("BoldKoreanLegacy","\uE1BD")
+.set("FontColorKoreanLegacy","\uE1BE")
+.set("ClosePaneLegacyMirrored","\uE1BF")
+.set("OpenPaneLegacyMirrored","\uE1C0")
+.set("EditLegacyMirrored","\uE1C2")
+.set("StreetLegacy","\uE1C3")
+.set("MapLegacy","\uE1C4")
+.set("ClearSelectionLegacy","\uE1C5")
+.set("FontDecreaseLegacy","\uE1C6")
+.set("FontIncreaseLegacy","\uE1C7")
+.set("FontSizeLegacy","\uE1C8")
+.set("CellPhoneLegacy","\uE1C9")
+.set("ReshareLegacy","\uE1CA")
+.set("TagLegacy","\uE1CB")
+.set("RepeatOneLegacy","\uE1CC")
+.set("RepeatAllLegacy","\uE1CD")
+.set("OutlineStarLegacy","\uE1CE")
+.set("SolidStarLegacy","\uE1CF")
+.set("CalculatorLegacy","\uE1D0")
+.set("DirectionsLegacy","\uE1D1")
+.set("LocationLegacy","\uE1D2")
+.set("LibraryLegacy","\uE1D3")
+.set("PhoneBookLegacy","\uE1D4")
+.set("MemoLegacy","\uE1D5")
+.set("MicrophoneLegacy","\uE1D6")
+.set("PostUpdateLegacy","\uE1D7")
+.set("BackToWindowLegacy","\uE1D8")
+.set("FullScreenLegacy","\uE1D9")
+.set("NewFolderLegacy","\uE1DA")
+.set("CalendarReplyLegacy","\uE1DB")
+.set("CalendarLegacyMirrored","\uE1DC")
+.set("UnsyncFolderLegacy","\uE1DD")
+.set("ReportHackedLegacy","\uE1DE")
+.set("SyncFolderLegacy","\uE1DF")
+.set("BlockContactLegacy","\uE1E0")
+.set("SwitchAppsLegacy","\uE1E1")
+.set("AddFriendLegacy","\uE1E2")
+.set("TouchPointerLegacy","\uE1E3")
+.set("GoToStartLegacy","\uE1E4")
+.set("ZeroBarsLegacy","\uE1E5")
+.set("OneBarLegacy","\uE1E6")
+.set("TwoBarsLegacy","\uE1E7")
+.set("ThreeBarsLegacy","\uE1E8")
+.set("FourBarsLegacy","\uE1E9")
+.set("ItalicRussianLegacy","\uE1EA")
+.set("AllAppsLegacyMirrored","\uE1EC")
+.set("OpenWithLegacyMirrored","\uE1ED")
+.set("BookmarksLegacyMirrored","\uE1EE")
+.set("MultiSelectLegacyMirrored","\uE1EF")
+.set("ShowResultsLegacyMirrored","\uE1F1")
+.set("MailReplyAllLegacyMirrored","\uE1F2")
+.set("HelpLegacyMirrored","\uE1F3")
+.set("ClearSelectionLegacyMirrored","\uE1F4")
+.set("RecordLegacy","\uE1F5")
+.set("LockLegacy","\uE1F6")
+.set("UnlockLegacy","\uE1F7")
+.set("DownLegacy","\uE1FD")
+.set("CommentInlineLegacy","\uE206")
+.set("FavoriteInlineLegacy","\uE208")
+.set("LikeInlineLegacy","\uE209")
+.set("VideoInlineLegacy","\uE20A")
+.set("MailMessageLegacy","\uE20B")
+.set("PC1Legacy","\uE211")
+.set("DevicesLegacy","\uE212")
+.set("RatingStarLegacy","\uE224")
+.set("ChevronDownSmLegacy","\uE228")
+.set("ReplyLegacy","\uE248")
+.set("Favorite2Legacy","\uE249")
+.set("Unfavorite2Legacy","\uE24A")
+.set("MobileContactLegacy","\uE25A")
+.set("BlockedLegacy","\uE25B")
+.set("TypingIndicatorLegacy","\uE25C")
+.set("PresenceChickletVideoLegacy","\uE25D")
+.set("PresenceChickletLegacy","\uE25E")
+.set("ChevronRightSmLegacy","\uE26B")
+.set("ChevronLeftSmLegacy","\uE26C")
+.set("SaveAsLegacy","\uE28F")
+.set("DecreaseIndentLegacy","\uE290")
+.set("IncreaseIndentLegacy","\uE291")
+.set("BulletedListLegacy","\uE292")
+.set("ScanLegacy","\uE294")
+.set("PreviewLegacy","\uE295")
+.set("DecreaseIndentLegacyMirrored","\uE297")
+.set("IncreaseIndentLegacyMirrored","\uE298")
+.set("BulletedListLegacyMirrored","\uE299")
+.set("PlayOnLegacy","\uE29B")
+.set("ResolutionLegacy","\uE2AC")
+.set("LengthLegacy","\uE2AD")
+.set("LayoutLegacy","\uE2AE")
+.set("Contact3Legacy","\uE2AF")
+.set("TypeLegacy","\uE2B0")
+.set("ColorLegacy","\uE2B1")
+.set("SizeLegacy","\uE2B2")
+.set("ReturnToWindowLegacy","\uE2B3")
+.set("OpenInNewWindowLegacy","\uE2B4")
+.set("PrintLegacy","\uE2F6")
+.set("Printer3DLegacy","\uE2F7")
+.set("GlobalNavButton","\uE700")
+.set("Wifi","\uE701")
+.set("Bluetooth","\uE702")
+.set("Connect","\uE703")
+.set("InternetSharing","\uE704")
+.set("VPN","\uE705")
+.set("Brightness","\uE706")
+.set("MapPin","\uE707")
+.set("QuietHours","\uE708")
+.set("Airplane","\uE709")
+.set("Tablet","\uE70A")
+.set("QuickNote","\uE70B")
+.set("RememberedDevice","\uE70C")
+.set("ChevronDown","\uE70D")
+.set("ChevronUp","\uE70E")
+.set("Edit","\uE70F")
+.set("Add","\uE710")
+.set("Cancel","\uE711")
+.set("More","\uE712")
+.set("Settings","\uE713")
+.set("Video","\uE714")
+.set("Mail","\uE715")
+.set("People","\uE716")
+.set("Phone","\uE717")
+.set("Pin","\uE718")
+.set("Shop","\uE719")
+.set("Stop","\uE71A")
+.set("Link","\uE71B")
+.set("Filter","\uE71C")
+.set("AllApps","\uE71D")
+.set("Zoom","\uE71E")
+.set("ZoomOut","\uE71F")
+.set("Microphone","\uE720")
+.set("Search","\uE721")
+.set("Camera","\uE722")
+.set("Attach","\uE723")
+.set("Send","\uE724")
+.set("SendFill","\uE725")
+.set("WalkSolid","\uE726")
+.set("InPrivate","\uE727")
+.set("FavoriteList","\uE728")
+.set("PageSolid","\uE729")
+.set("Forward","\uE72A")
+.set("Back","\uE72B")
+.set("Refresh","\uE72C")
+.set("Share","\uE72D")
+.set("Lock","\uE72E")
+.set("ReportHacked","\uE730")
+.set("FavoriteStar","\uE734")
+.set("FavoriteStarFill","\uE735")
+.set("Remove","\uE738")
+.set("Checkbox","\uE739")
+.set("CheckboxComposite","\uE73A")
+.set("CheckboxFill","\uE73B")
+.set("CheckboxIndeterminate","\uE73C")
+.set("CheckboxCompositeReversed","\uE73D")
+.set("CheckMark","\uE73E")
+.set("BackToWindow","\uE73F")
+.set("FullScreen","\uE740")
+.set("ResizeTouchLarger","\uE741")
+.set("ResizeTouchSmaller","\uE742")
+.set("ResizeMouseSmall","\uE743")
+.set("ResizeMouseMedium","\uE744")
+.set("ResizeMouseWide","\uE745")
+.set("ResizeMouseTall","\uE746")
+.set("ResizeMouseLarge","\uE747")
+.set("SwitchUser","\uE748")
+.set("Print","\uE749")
+.set("Up","\uE74A")
+.set("Down","\uE74B")
+.set("OEM","\uE74C")
+.set("Delete","\uE74D")
+.set("Save","\uE74E")
+.set("Mute","\uE74F")
+.set("BackSpaceQWERTY","\uE750")
+.set("ReturnKey","\uE751")
+.set("UpArrowShiftKey","\uE752")
+.set("Cloud","\uE753")
+.set("Flashlight","\uE754")
+.set("RotationLock","\uE755")
+.set("CommandPrompt","\uE756")
+.set("SIPMove","\uE759")
+.set("SIPUndock","\uE75A")
+.set("SIPRedock","\uE75B")
+.set("EraseTool","\uE75C")
+.set("UnderscoreSpace","\uE75D")
+.set("GripperTool","\uE75E")
+.set("Dialpad","\uE75F")
+.set("PageLeft","\uE760")
+.set("PageRight","\uE761")
+.set("MultiSelect","\uE762")
+.set("KeyboardLeftHanded","\uE763")
+.set("KeyboardRightHanded","\uE764")
+.set("KeyboardClassic","\uE765")
+.set("KeyboardSplit","\uE766")
+.set("Volume","\uE767")
+.set("Play","\uE768")
+.set("Pause","\uE769")
+.set("ChevronLeft","\uE76B")
+.set("ChevronRight","\uE76C")
+.set("InkingTool","\uE76D")
+.set("Emoji2","\uE76E")
+.set("GripperBarHorizontal","\uE76F")
+.set("System","\uE770")
+.set("Personalize","\uE771")
+.set("Devices","\uE772")
+.set("SearchAndApps","\uE773")
+.set("Globe","\uE774")
+.set("TimeLanguage","\uE775")
+.set("EaseOfAccess","\uE776")
+.set("UpdateRestore","\uE777")
+.set("HangUp","\uE778")
+.set("ContactInfo","\uE779")
+.set("Unpin","\uE77A")
+.set("Contact","\uE77B")
+.set("Memo","\uE77C")
+.set("Paste","\uE77F")
+.set("PhoneBook","\uE780")
+.set("LEDLight","\uE781")
+.set("Error","\uE783")
+.set("GripperBarVertical","\uE784")
+.set("Unlock","\uE785")
+.set("Slideshow","\uE786")
+.set("Calendar","\uE787")
+.set("GripperResize","\uE788")
+.set("Megaphone","\uE789")
+.set("Trim","\uE78A")
+.set("NewWindow","\uE78B")
+.set("SaveLocal","\uE78C")
+.set("Color","\uE790")
+.set("DataSense","\uE791")
+.set("SaveAs","\uE792")
+.set("Light","\uE793")
+.set("AspectRatio","\uE799")
+.set("DataSenseBar","\uE7A5")
+.set("Redo","\uE7A6")
+.set("Undo","\uE7A7")
+.set("Crop","\uE7A8")
+.set("OpenWith","\uE7AC")
+.set("Rotate","\uE7AD")
+.set("SetlockScreen","\uE7B5")
+.set("MapPin2","\uE7B7")
+.set("Package","\uE7B8")
+.set("Warning","\uE7BA")
+.set("ReadingList","\uE7BC")
+.set("Education","\uE7BE")
+.set("ShoppingCart","\uE7BF")
+.set("Train","\uE7C0")
+.set("Flag","\uE7C1")
+.set("Page","\uE7C3")
+.set("Multitask","\uE7C4")
+.set("BrowsePhotos","\uE7C5")
+.set("HalfStarLeft","\uE7C6")
+.set("HalfStarRight","\uE7C7")
+.set("Record","\uE7C8")
+.set("TouchPointer","\uE7C9")
+.set("LangJPN","\uE7DE")
+.set("Ferry","\uE7E3")
+.set("Highlight","\uE7E6")
+.set("ActionCenterNotification","\uE7E7")
+.set("PowerButton","\uE7E8")
+.set("ResizeTouchNarrower","\uE7EA")
+.set("ResizeTouchShorter","\uE7EB")
+.set("DrivingMode","\uE7EC")
+.set("RingerSilent","\uE7ED")
+.set("OtherUser","\uE7EE")
+.set("Admin","\uE7EF")
+.set("CC","\uE7F0")
+.set("SDCard","\uE7F1")
+.set("CallForwarding","\uE7F2")
+.set("SettingsDisplaySound","\uE7F3")
+.set("TVMonitor","\uE7F4")
+.set("Speakers","\uE7F5")
+.set("Headphone","\uE7F6")
+.set("DeviceLaptopPic","\uE7F7")
+.set("DeviceLaptopNoPic","\uE7F8")
+.set("DeviceMonitorRightPic","\uE7F9")
+.set("DeviceMonitorLeftPic","\uE7FA")
+.set("DeviceMonitorNoPic","\uE7FB")
+.set("Game","\uE7FC")
+.set("HorizontalTabKey","\uE7FD")
+.set("StreetsideSplitMinimize","\uE802")
+.set("StreetsideSplitExpand","\uE803")
+.set("Car","\uE804")
+.set("Walk","\uE805")
+.set("Bus","\uE806")
+.set("TiltUp","\uE809")
+.set("TiltDown","\uE80A")
+.set("RotateMapRight","\uE80C")
+.set("RotateMapLeft","\uE80D")
+.set("Home","\uE80F")
+.set("ParkingLocation","\uE811")
+.set("MapCompassTop","\uE812")
+.set("MapCompassBottom","\uE813")
+.set("IncidentTriangle","\uE814")
+.set("Touch","\uE815")
+.set("MapDirections","\uE816")
+.set("StartPoint","\uE819")
+.set("StopPoint","\uE81A")
+.set("EndPoint","\uE81B")
+.set("History","\uE81C")
+.set("Location","\uE81D")
+.set("MapLayers","\uE81E")
+.set("Accident","\uE81F")
+.set("Work","\uE821")
+.set("Construction","\uE822")
+.set("Recent","\uE823")
+.set("Bank","\uE825")
+.set("DownloadMap","\uE826")
+.set("InkingToolFill2","\uE829")
+.set("HighlightFill2","\uE82A")
+.set("EraseToolFill","\uE82B")
+.set("EraseToolFill2","\uE82C")
+.set("Dictionary","\uE82D")
+.set("DictionaryAdd","\uE82E")
+.set("ToolTip","\uE82F")
+.set("ChromeBack","\uE830")
+.set("ProvisioningPackage","\uE835")
+.set("AddRemoteDevice","\uE836")
+.set("Ethernet","\uE839")
+.set("ShareBroadband","\uE83A")
+.set("DirectAccess","\uE83B")
+.set("DialUp","\uE83C")
+.set("DefenderApp","\uE83D")
+.set("BatteryCharging9","\uE83E")
+.set("Battery10","\uE83F")
+.set("Pinned","\uE840")
+.set("PinFill","\uE841")
+.set("PinnedFill","\uE842")
+.set("PeriodKey","\uE843")
+.set("PuncKey","\uE844")
+.set("RevToggleKey","\uE845")
+.set("RightArrowKeyTime1","\uE846")
+.set("RightArrowKeyTime2","\uE847")
+.set("LeftQuote","\uE848")
+.set("RightQuote","\uE849")
+.set("DownShiftKey","\uE84A")
+.set("UpShiftKey","\uE84B")
+.set("PuncKey0","\uE84C")
+.set("PuncKeyLeftBottom","\uE84D")
+.set("RightArrowKeyTime3","\uE84E")
+.set("RightArrowKeyTime4","\uE84F")
+.set("Battery0","\uE850")
+.set("Battery1","\uE851")
+.set("Battery2","\uE852")
+.set("Battery3","\uE853")
+.set("Battery4","\uE854")
+.set("Battery5","\uE855")
+.set("Battery6","\uE856")
+.set("Battery7","\uE857")
+.set("Battery8","\uE858")
+.set("Battery9","\uE859")
+.set("BatteryCharging0","\uE85A")
+.set("BatteryCharging1","\uE85B")
+.set("BatteryCharging2","\uE85C")
+.set("BatteryCharging3","\uE85D")
+.set("BatteryCharging4","\uE85E")
+.set("BatteryCharging5","\uE85F")
+.set("BatteryCharging6","\uE860")
+.set("BatteryCharging7","\uE861")
+.set("BatteryCharging8","\uE862")
+.set("BatterySaver0","\uE863")
+.set("BatterySaver1","\uE864")
+.set("BatterySaver2","\uE865")
+.set("BatterySaver3","\uE866")
+.set("BatterySaver4","\uE867")
+.set("BatterySaver5","\uE868")
+.set("BatterySaver6","\uE869")
+.set("BatterySaver7","\uE86A")
+.set("BatterySaver8","\uE86B")
+.set("SignalBars1","\uE86C")
+.set("SignalBars2","\uE86D")
+.set("SignalBars3","\uE86E")
+.set("SignalBars4","\uE86F")
+.set("SignalBars5","\uE870")
+.set("SignalNotConnected","\uE871")
+.set("Wifi1","\uE872")
+.set("Wifi2","\uE873")
+.set("Wifi3","\uE874")
+.set("SIMLock","\uE875")
+.set("SIMMissing","\uE876")
+.set("Vibrate","\uE877")
+.set("RoamingInternational","\uE878")
+.set("RoamingDomestic","\uE879")
+.set("CallForwardInternational","\uE87A")
+.set("CallForwardRoaming","\uE87B")
+.set("JpnRomanji","\uE87C")
+.set("JpnRomanjiLock","\uE87D")
+.set("JpnRomanjiShift","\uE87E")
+.set("JpnRomanjiShiftLock","\uE87F")
+.set("StatusDataTransfer","\uE880")
+.set("StatusDataTransferVPN","\uE881")
+.set("StatusDualSIM2","\uE882")
+.set("StatusDualSIM2VPN","\uE883")
+.set("StatusDualSIM1","\uE884")
+.set("StatusDualSIM1VPN","\uE885")
+.set("StatusSGLTE","\uE886")
+.set("StatusSGLTECell","\uE887")
+.set("StatusSGLTEDataVPN","\uE888")
+.set("StatusVPN","\uE889")
+.set("WifiHotspot","\uE88A")
+.set("LanguageKor","\uE88B")
+.set("LanguageCht","\uE88C")
+.set("LanguageChs","\uE88D")
+.set("USB","\uE88E")
+.set("InkingToolFill","\uE88F")
+.set("View","\uE890")
+.set("HighlightFill","\uE891")
+.set("Previous","\uE892")
+.set("Next","\uE893")
+.set("Clear","\uE894")
+.set("Sync","\uE895")
+.set("Download","\uE896")
+.set("Help","\uE897")
+.set("Upload","\uE898")
+.set("Emoji","\uE899")
+.set("TwoPage","\uE89A")
+.set("LeaveChat","\uE89B")
+.set("MailForward","\uE89C")
+.set("RotateCamera","\uE89E")
+.set("ClosePane","\uE89F")
+.set("OpenPane","\uE8A0")
+.set("PreviewLink","\uE8A1")
+.set("AttachCamera","\uE8A2")
+.set("ZoomIn","\uE8A3")
+.set("Bookmarks","\uE8A4")
+.set("Document","\uE8A5")
+.set("ProtectedDocument","\uE8A6")
+.set("OpenInNewWindow","\uE8A7")
+.set("MailFill","\uE8A8")
+.set("ViewAll","\uE8A9")
+.set("VideoChat","\uE8AA")
+.set("Switch","\uE8AB")
+.set("Rename","\uE8AC")
+.set("Go","\uE8AD")
+.set("SurfaceHub","\uE8AE")
+.set("Remote","\uE8AF")
+.set("Click","\uE8B0")
+.set("Shuffle","\uE8B1")
+.set("Movies","\uE8B2")
+.set("SelectAll","\uE8B3")
+.set("Orientation","\uE8B4")
+.set("Import","\uE8B5")
+.set("ImportAll","\uE8B6")
+.set("Folder","\uE8B7")
+.set("Webcam","\uE8B8")
+.set("Picture","\uE8B9")
+.set("Caption","\uE8BA")
+.set("ChromeClose","\uE8BB")
+.set("ShowResults","\uE8BC")
+.set("Message","\uE8BD")
+.set("Leaf","\uE8BE")
+.set("CalendarDay","\uE8BF")
+.set("CalendarWeek","\uE8C0")
+.set("Characters","\uE8C1")
+.set("MailReplyAll","\uE8C2")
+.set("Read","\uE8C3")
+.set("ShowBcc","\uE8C4")
+.set("HideBcc","\uE8C5")
+.set("Cut","\uE8C6")
+.set("Copy","\uE8C8")
+.set("Important","\uE8C9")
+.set("MailReply","\uE8CA")
+.set("Sort","\uE8CB")
+.set("MobileTablet","\uE8CC")
+.set("DisconnectDrive","\uE8CD")
+.set("MapDrive","\uE8CE")
+.set("ContactPresence","\uE8CF")
+.set("Priority","\uE8D0")
+.set("GotoToday","\uE8D1")
+.set("Font","\uE8D2")
+.set("FontColor","\uE8D3")
+.set("Contact2","\uE8D4")
+.set("FolderFill","\uE8D5")
+.set("Audio","\uE8D6")
+.set("Permissions","\uE8D7")
+.set("DisableUpdates","\uE8D8")
+.set("Unfavorite","\uE8D9")
+.set("OpenLocal","\uE8DA")
+.set("Italic","\uE8DB")
+.set("Underline","\uE8DC")
+.set("Bold","\uE8DD")
+.set("MoveToFolder","\uE8DE")
+.set("LikeDislike","\uE8DF")
+.set("Dislike","\uE8E0")
+.set("Like","\uE8E1")
+.set("AlignRight","\uE8E2")
+.set("AlignCenter","\uE8E3")
+.set("AlignLeft","\uE8E4")
+.set("OpenFile","\uE8E5")
+.set("ClearSelection","\uE8E6")
+.set("FontDecrease","\uE8E7")
+.set("FontIncrease","\uE8E8")
+.set("FontSize","\uE8E9")
+.set("CellPhone","\uE8EA")
+.set("Reshare","\uE8EB")
+.set("Tag","\uE8EC")
+.set("RepeatOne","\uE8ED")
+.set("RepeatAll","\uE8EE")
+.set("Calculator","\uE8EF")
+.set("Directions","\uE8F0")
+.set("Library","\uE8F1")
+.set("ChatBubbles","\uE8F2")
+.set("PostUpdate","\uE8F3")
+.set("NewFolder","\uE8F4")
+.set("CalendarReply","\uE8F5")
+.set("UnsyncFolder","\uE8F6")
+.set("SyncFolder","\uE8F7")
+.set("BlockContact","\uE8F8")
+.set("SwitchApps","\uE8F9")
+.set("AddFriend","\uE8FA")
+.set("Accept","\uE8FB")
+.set("GoToStart","\uE8FC")
+.set("BulletedList","\uE8FD")
+.set("Scan","\uE8FE")
+.set("Preview","\uE8FF")
+.set("ZeroBars","\uE904")
+.set("OneBar","\uE905")
+.set("TwoBars","\uE906")
+.set("ThreeBars","\uE907")
+.set("FourBars","\uE908")
+.set("World","\uE909")
+.set("Comment","\uE90A")
+.set("MusicInfo","\uE90B")
+.set("DockLeft","\uE90C")
+.set("DockRight","\uE90D")
+.set("DockBottom","\uE90E")
+.set("Repair","\uE90F")
+.set("Accounts","\uE910")
+.set("DullSound","\uE911")
+.set("Manage","\uE912")
+.set("Street","\uE913")
+.set("Printer3D","\uE914")
+.set("RadioBullet","\uE915")
+.set("Stopwatch","\uE916")
+.set("Photo","\uE91B")
+.set("ActionCenter","\uE91C")
+.set("FullCircleMask","\uE91F")
+.set("ChromeMinimize","\uE921")
+.set("ChromeMaximize","\uE922")
+.set("ChromeRestore","\uE923")
+.set("Annotation","\uE924")
+.set("BackSpaceQWERTYSm","\uE925")
+.set("BackSpaceQWERTYMd","\uE926")
+.set("Swipe","\uE927")
+.set("Fingerprint","\uE928")
+.set("Handwriting","\uE929")
+.set("ChromeBackToWindow","\uE92C")
+.set("ChromeFullScreen","\uE92D")
+.set("KeyboardStandard","\uE92E")
+.set("KeyboardDismiss","\uE92F")
+.set("Completed","\uE930")
+.set("ChromeAnnotate","\uE931")
+.set("Label","\uE932")
+.set("IBeam","\uE933")
+.set("IBeamOutline","\uE934")
+.set("FlickDown","\uE935")
+.set("FlickUp","\uE936")
+.set("FlickLeft","\uE937")
+.set("FlickRight","\uE938")
+.set("FeedbackApp","\uE939")
+.set("MusicAlbum","\uE93C")
+.set("Streaming","\uE93E")
+.set("Code","\uE943")
+.set("ReturnToWindow","\uE944")
+.set("LightningBolt","\uE945")
+.set("Info","\uE946")
+.set("CalculatorMultiply","\uE947")
+.set("CalculatorAddition","\uE948")
+.set("CalculatorSubtract","\uE949")
+.set("CalculatorDivide","\uE94A")
+.set("CalculatorSquareroot","\uE94B")
+.set("CalculatorPercentage","\uE94C")
+.set("CalculatorNegate","\uE94D")
+.set("CalculatorEqualTo","\uE94E")
+.set("CalculatorBackspace","\uE94F")
+.set("Component","\uE950")
+.set("DMC","\uE951")
+.set("Dock","\uE952")
+.set("MultimediaDMS","\uE953")
+.set("MultimediaDVR","\uE954")
+.set("MultimediaPMP","\uE955")
+.set("PrintfaxPrinterFile","\uE956")
+.set("Sensor","\uE957")
+.set("StorageOptical","\uE958")
+.set("Communications","\uE95A")
+.set("Headset","\uE95B")
+.set("Projector","\uE95D")
+.set("Health","\uE95E")
+.set("Webcam2","\uE960")
+.set("Input","\uE961")
+.set("Mouse","\uE962")
+.set("Smartcard","\uE963")
+.set("SmartcardVirtual","\uE964")
+.set("MediaStorageTower","\uE965")
+.set("ReturnKeySm","\uE966")
+.set("GameConsole","\uE967")
+.set("Network","\uE968")
+.set("StorageNetworkWireless","\uE969")
+.set("StorageTape","\uE96A")
+.set("ChevronUpSmall","\uE96D")
+.set("ChevronDownSmall","\uE96E")
+.set("ChevronLeftSmall","\uE96F")
+.set("ChevronRightSmall","\uE970")
+.set("ChevronUpMed","\uE971")
+.set("ChevronDownMed","\uE972")
+.set("ChevronLeftMed","\uE973")
+.set("ChevronRightMed","\uE974")
+.set("Devices2","\uE975")
+.set("ExpandTile","\uE976")
+.set("PC1","\uE977")
+.set("PresenceChicklet","\uE978")
+.set("PresenceChickletVideo","\uE979")
+.set("Reply","\uE97A")
+.set("SetTile","\uE97B")
+.set("Type","\uE97C")
+.set("Korean","\uE97D")
+.set("HalfAlpha","\uE97E")
+.set("FullAlpha","\uE97F")
+.set("Key12On","\uE980")
+.set("ChineseChangjie","\uE981")
+.set("QWERTYOn","\uE982")
+.set("QWERTYOff","\uE983")
+.set("ChineseQuick","\uE984")
+.set("Japanese","\uE985")
+.set("FullHiragana","\uE986")
+.set("FullKatakana","\uE987")
+.set("HalfKatakana","\uE988")
+.set("ChineseBoPoMoFo","\uE989")
+.set("ChinesePinyin","\uE98A")
+.set("ConstructionCone","\uE98F")
+.set("XboxOneConsole","\uE990")
+.set("Volume0","\uE992")
+.set("Volume1","\uE993")
+.set("Volume2","\uE994")
+.set("Volume3","\uE995")
+.set("BatteryUnknown","\uE996")
+.set("WifiAttentionOverlay","\uE998")
+.set("Robot","\uE99A")
+.set("TapAndSend","\uE9A1")
+.set("PasswordKeyShow","\uE9A8")
+.set("PasswordKeyHide","\uE9A9")
+.set("BidiLtr","\uE9AA")
+.set("BidiRtl","\uE9AB")
+.set("ForwardSm","\uE9AC")
+.set("CommaKey","\uE9AD")
+.set("DashKey","\uE9AE")
+.set("DullSoundKey","\uE9AF")
+.set("HalfDullSound","\uE9B0")
+.set("RightDoubleQuote","\uE9B1")
+.set("LeftDoubleQuote","\uE9B2")
+.set("PuncKeyRightBottom","\uE9B3")
+.set("PuncKey1","\uE9B4")
+.set("PuncKey2","\uE9B5")
+.set("PuncKey3","\uE9B6")
+.set("PuncKey4","\uE9B7")
+.set("PuncKey5","\uE9B8")
+.set("PuncKey6","\uE9B9")
+.set("PuncKey9","\uE9BA")
+.set("PuncKey7","\uE9BB")
+.set("PuncKey8","\uE9BC")
+.set("Frigid","\uE9CA")
+.set("Diagnostic","\uE9D9")
+.set("Process","\uE9F3")
+.set("DisconnectDisplay","\uEA14")
+.set("Info2","\uEA1F")
+.set("ActionCenterAsterisk","\uEA21")
+.set("Beta","\uEA24")
+.set("SaveCopy","\uEA35")
+.set("List","\uEA37")
+.set("Asterisk","\uEA38")
+.set("ErrorBadge","\uEA39")
+.set("CircleRing","\uEA3A")
+.set("CircleFill","\uEA3B")
+.set("AllAppsMirrored","\uEA40")
+.set("BookmarksMirrored","\uEA41")
+.set("BulletedListMirrored","\uEA42")
+.set("CallForwardInternationalMirrored","\uEA43")
+.set("CallForwardRoamingMirrored","\uEA44")
+.set("ChromeBackMirrored","\uEA47")
+.set("ClearSelectionMirrored","\uEA48")
+.set("ClosePaneMirrored","\uEA49")
+.set("ContactInfoMirrored","\uEA4A")
+.set("DockRightMirrored","\uEA4B")
+.set("DockLeftMirrored","\uEA4C")
+.set("ExpandTileMirrored","\uEA4E")
+.set("GoMirrored","\uEA4F")
+.set("GripperResizeMirrored","\uEA50")
+.set("HelpMirrored","\uEA51")
+.set("ImportMirrored","\uEA52")
+.set("ImportAllMirrored","\uEA53")
+.set("LeaveChatMirrored","\uEA54")
+.set("ListMirrored","\uEA55")
+.set("MailForwardMirrored","\uEA56")
+.set("MailReplyMirrored","\uEA57")
+.set("MailReplyAllMirrored","\uEA58")
+.set("OpenPaneMirrored","\uEA5B")
+.set("OpenWithMirrored","\uEA5C")
+.set("ParkingLocationMirrored","\uEA5E")
+.set("ResizeMouseMediumMirrored","\uEA5F")
+.set("ResizeMouseSmallMirrored","\uEA60")
+.set("ResizeMouseTallMirrored","\uEA61")
+.set("ResizeTouchNarrowerMirrored","\uEA62")
+.set("SendMirrored","\uEA63")
+.set("SendFillMirrored","\uEA64")
+.set("ShowResultsMirrored","\uEA65")
+.set("Media","\uEA69")
+.set("SyncError","\uEA6A")
+.set("Devices3","\uEA6C")
+.set("Lightbulb","\uEA80")
+.set("StatusCircle","\uEA81")
+.set("StatusTriangle","\uEA82")
+.set("StatusError","\uEA83")
+.set("StatusWarning","\uEA84")
+.set("Puzzle","\uEA86")
+.set("CalendarSolid","\uEA89")
+.set("HomeSolid","\uEA8A")
+.set("ParkingLocationSolid","\uEA8B")
+.set("ContactSolid","\uEA8C")
+.set("ConstructionSolid","\uEA8D")
+.set("AccidentSolid","\uEA8E")
+.set("Ringer","\uEA8F")
+.set("ThoughtBubble","\uEA91")
+.set("HeartBroken","\uEA92")
+.set("BatteryCharging10","\uEA93")
+.set("BatterySaver9","\uEA94")
+.set("BatterySaver10","\uEA95")
+.set("CallForwardingMirrored","\uEA97")
+.set("MultiSelectMirrored","\uEA98")
+.set("Broom","\uEA99")
+.set("Trackers","\uEADF")
+.set("PieSingle","\uEB05")
+.set("StockDown","\uEB0F")
+.set("StockUp","\uEB11")
+.set("Drop","\uEB42")
+.set("BusSolid","\uEB47")
+.set("FerrySolid","\uEB48")
+.set("StartPointSolid","\uEB49")
+.set("StopPointSolid","\uEB4A")
+.set("EndPointSolid","\uEB4B")
+.set("AirplaneSolid","\uEB4C")
+.set("TrainSolid","\uEB4D")
+.set("WorkSolid","\uEB4E")
+.set("ReminderFill","\uEB4F")
+.set("Reminder","\uEB50")
+.set("Heart","\uEB51")
+.set("HeartFill","\uEB52")
+.set("EthernetError","\uEB55")
+.set("EthernetWarning","\uEB56")
+.set("StatusConnecting1","\uEB57")
+.set("StatusConnecting2","\uEB58")
+.set("StatusUnsecure","\uEB59")
+.set("WifiError0","\uEB5A")
+.set("WifiError1","\uEB5B")
+.set("WifiError2","\uEB5C")
+.set("WifiError3","\uEB5D")
+.set("WifiError4","\uEB5E")
+.set("WifiWarning0","\uEB5F")
+.set("WifiWarning1","\uEB60")
+.set("WifiWarning2","\uEB61")
+.set("WifiWarning3","\uEB62")
+.set("WifiWarning4","\uEB63")
+.set("Devices4","\uEB66")
+.set("NUIIris","\uEB67")
+.set("NUIFace","\uEB68")
+.set("EditMirrored","\uEB7E")
+.set("NUIFPStartSlideHand","\uEB82")
+.set("NUIFPStartSlideAction","\uEB83")
+.set("NUIFPContinueSlideHand","\uEB84")
+.set("NUIFPContinueSlideAction","\uEB85")
+.set("NUIFPRollRightHand","\uEB86")
+.set("NUIFPRollRightHandAction","\uEB87")
+.set("NUIFPRollLeftHand","\uEB88")
+.set("NUIFPRollLeftAction","\uEB89")
+.set("NUIFPPressHand","\uEB8A")
+.set("NUIFPPressAction","\uEB8B")
+.set("NUIFPPressRepeatHand","\uEB8C")
+.set("NUIFPPressRepeatAction","\uEB8D")
+.set("StatusErrorFull","\uEB90")
+.set("MultitaskExpanded","\uEB91")
+.set("Certificate","\uEB95")
+.set("BackSpaceQWERTYLg","\uEB96")
+.set("ReturnKeyLg","\uEB97")
+.set("FastForward","\uEB9D")
+.set("Rewind","\uEB9E")
+.set("Photo2","\uEB9F")
+.set("MobBattery0","\uEBA0")
+.set("MobBattery1","\uEBA1")
+.set("MobBattery2","\uEBA2")
+.set("MobBattery3","\uEBA3")
+.set("MobBattery4","\uEBA4")
+.set("MobBattery5","\uEBA5")
+.set("MobBattery6","\uEBA6")
+.set("MobBattery7","\uEBA7")
+.set("MobBattery8","\uEBA8")
+.set("MobBattery9","\uEBA9")
+.set("MobBattery10","\uEBAA")
+.set("MobBatteryCharging0","\uEBAB")
+.set("MobBatteryCharging1","\uEBAC")
+.set("MobBatteryCharging2","\uEBAD")
+.set("MobBatteryCharging3","\uEBAE")
+.set("MobBatteryCharging4","\uEBAF")
+.set("MobBatteryCharging5","\uEBB0")
+.set("MobBatteryCharging6","\uEBB1")
+.set("MobBatteryCharging7","\uEBB2")
+.set("MobBatteryCharging8","\uEBB3")
+.set("MobBatteryCharging9","\uEBB4")
+.set("MobBatteryCharging10","\uEBB5")
+.set("MobBatterySaver0","\uEBB6")
+.set("MobBatterySaver1","\uEBB7")
+.set("MobBatterySaver2","\uEBB8")
+.set("MobBatterySaver3","\uEBB9")
+.set("MobBatterySaver4","\uEBBA")
+.set("MobBatterySaver5","\uEBBB")
+.set("MobBatterySaver6","\uEBBC")
+.set("MobBatterySaver7","\uEBBD")
+.set("MobBatterySaver8","\uEBBE")
+.set("MobBatterySaver9","\uEBBF")
+.set("MobBatterySaver10","\uEBC0")
+.set("DictionaryCloud","\uEBC3")
+.set("ResetDrive","\uEBC4")
+.set("VolumeBars","\uEBC5")
+.set("Project","\uEBC6")
+.set("AdjustHologram","\uEBD2")
+.set("WifiCallBars","\uEBD4")
+.set("WifiCall0","\uEBD5")
+.set("WifiCall1","\uEBD6")
+.set("WifiCall2","\uEBD7")
+.set("WifiCall3","\uEBD8")
+.set("WifiCall4","\uEBD9")
+.set("DeviceDiscovery","\uEBDE")
+.set("WindDirection","\uEBE6")
+.set("RightArrowKeyTime0","\uEBE7")
+.set("TabletMode","\uEBFC")
+.set("StatusCircleLeft","\uEBFD")
+.set("StatusTriangleLeft","\uEBFE")
+.set("StatusErrorLeft","\uEBFF")
+.set("StatusWarningLeft","\uEC00")
+.set("MobBatteryUnknown","\uEC02")
+.set("NetworkTower","\uEC05")
+.set("CityNext","\uEC06")
+.set("CityNext2","\uEC07")
+.set("Courthouse","\uEC08")
+.set("Groceries","\uEC09")
+.set("Sustainable","\uEC0A")
+.set("BuildingEnergy","\uEC0B")
+.set("ToggleFilled","\uEC11")
+.set("ToggleBorder","\uEC12")
+.set("SliderThumb","\uEC13")
+.set("ToggleThumb","\uEC14")
+.set("MiracastLogoSmall","\uEC15")
+.set("MiracastLogoLarge","\uEC16")
+.set("PLAP","\uEC19")
+.set("Badge","\uEC1B")
+.set("SignalRoaming","\uEC1E")
+.set("MobileLocked","\uEC20")
+.set("InsiderHubApp","\uEC24")
+.set("PersonalFolder","\uEC25")
+.set("HomeGroup","\uEC26")
+.set("MyNetwork","\uEC27")
+.set("KeyboardFull","\uEC31")
+.set("MobSignal1","\uEC37")
+.set("MobSignal2","\uEC38")
+.set("MobSignal3","\uEC39")
+.set("MobSignal4","\uEC3A")
+.set("MobSignal5","\uEC3B")
+.set("MobWifi1","\uEC3C")
+.set("MobWifi2","\uEC3D")
+.set("MobWifi3","\uEC3E")
+.set("MobWifi4","\uEC3F")
+.set("MobAirplane","\uEC40")
+.set("MobBluetooth","\uEC41")
+.set("MobActionCenter","\uEC42")
+.set("MobLocation","\uEC43")
+.set("MobWifiHotspot","\uEC44")
+.set("LanguageJpn","\uEC45")
+.set("MobQuietHours","\uEC46")
+.set("MobDrivingMode","\uEC47")
+.set("SpeedOff","\uEC48")
+.set("SpeedMedium","\uEC49")
+.set("SpeedHigh","\uEC4A")
+.set("ThisPC","\uEC4E")
+.set("MusicNote","\uEC4F")
+.set("FileExplorer","\uEC50")
+.set("FileExplorerApp","\uEC51")
+.set("LeftArrowKeyTime0","\uEC52")
+.set("MicOff","\uEC54")
+.set("MicSleep","\uEC55")
+.set("MicError","\uEC56")
+.set("PlaybackRate1x","\uEC57")
+.set("PlaybackRateOther","\uEC58")
+.set("CashDrawer","\uEC59")
+.set("BarcodeScanner","\uEC5A")
+.set("ReceiptPrinter","\uEC5B")
+.set("MagStripeReader","\uEC5C")
+.set("CompletedSolid","\uEC61")
+.set("CompanionApp","\uEC64")
+.set("SwipeRevealArt","\uEC6D")
+.set("MicOn","\uEC71")
+.set("MicClipping","\uEC72")
+.set("TabletSelected","\uEC74")
+.set("MobileSelected","\uEC75")
+.set("LaptopSelected","\uEC76")
+.set("TVMonitorSelected","\uEC77")
+.set("DeveloperTools","\uEC7A")
+.set("MobCallForwarding","\uEC7E")
+.set("MobCallForwardingMirrored","\uEC7F")
+.set("BodyCam","\uEC80")
+.set("PoliceCar","\uEC81")
+.set("Draw","\uEC87")
+.set("DrawSolid","\uEC88")
+.set("LowerBrightness","\uEC8A")
+.set("ScrollUpDown","\uEC8F")
+.set("DateTime","\uEC92")
+.set("Tiles","\uECA5")
+.set("PartyLeader","\uECA7")
+.set("AppIconDefault","\uECAA")
+.set("AddSurfaceHub","\uECC4")
+.set("DevUpdate","\uECC5")
+.set("Unit","\uECC6")
+.set("AddTo","\uECC8")
+.set("RemoveFrom","\uECC9")
+.set("RadioBtnOff","\uECCA")
+.set("RadioBtnOn","\uECCB")
+.set("RadioBullet2","\uECCC")
+.set("ExploreContent","\uECCD")
+.set("ScrollMode","\uECE7")
+.set("ZoomMode","\uECE8")
+.set("PanMode","\uECE9")
+.set("WiredUSB","\uECF0")
+.set("WirelessUSB","\uECF1")
+.set("USBSafeConnect","\uECF3")
+.set("ActionCenterNotificationMirrored","\uED0C")
+.set("ActionCenterMirrored","\uED0D")
+.set("ResetDevice","\uED10")
+.set("Feedback","\uED15")
+.set("Subtitles","\uED1E")
+.set("SubtitlesAudio","\uED1F")
+.set("CalendarMirrored","\uED28")
+.set("eSIM","\uED2A")
+.set("eSIMNoProfile","\uED2B")
+.set("eSIMLocked","\uED2C")
+.set("eSIMBusy","\uED2D")
+.set("SignalError","\uED2E")
+.set("StreamingEnterprise","\uED2F")
+.set("Headphone0","\uED30")
+.set("Headphone1","\uED31")
+.set("Headphone2","\uED32")
+.set("Headphone3","\uED33")
+.set("KeyboardBrightness","\uED39")
+.set("KeyboardLowerBrightness","\uED3A")
+.set("SkipBack10","\uED3C")
+.set("SkipForward30","\uED3D")
+.set("TreeFolderFolder","\uED41")
+.set("TreeFolderFolderFill","\uED42")
+.set("TreeFolderFolderOpen","\uED43")
+.set("TreeFolderFolderOpenFill","\uED44")
+.set("MultimediaDMP","\uED47")
+.set("KeyboardOneHanded","\uED4C")
+.set("Narrator","\uED4D")
+.set("EmojiTabPeople","\uED53")
+.set("EmojiTabSmilesAnimals","\uED54")
+.set("EmojiTabCelebrationObjects","\uED55")
+.set("EmojiTabFoodPlants","\uED56")
+.set("EmojiTabTransitPlaces","\uED57")
+.set("EmojiTabSymbols","\uED58")
+.set("EmojiTabTextSmiles","\uED59")
+.set("EmojiTabFavorites","\uED5A")
+.set("EmojiSwatch","\uED5B")
+.set("ConnectApp","\uED5C")
+.set("CompanionDeviceFramework","\uED5D")
+.set("Ruler","\uED5E")
+.set("FingerInking","\uED5F")
+.set("StrokeErase","\uED60")
+.set("PointErase","\uED61")
+.set("ClearAllInk","\uED62")
+.set("Pencil","\uED63")
+.set("Marker","\uED64")
+.set("InkingCaret","\uED65")
+.set("InkingColorOutline","\uED66")
+.set("InkingColorFill","\uED67")
+.set("HardDrive","\uEDA2")
+.set("NetworkAdapter","\uEDA3")
+.set("Touchscreen","\uEDA4")
+.set("NetworkPrinter","\uEDA5")
+.set("CloudPrinter","\uEDA6")
+.set("KeyboardShortcut","\uEDA7")
+.set("BrushSize","\uEDA8")
+.set("NarratorForward","\uEDA9")
+.set("NarratorForwardMirrored","\uEDAA")
+.set("SyncBadge12","\uEDAB")
+.set("RingerBadge12","\uEDAC")
+.set("AsteriskBadge12","\uEDAD")
+.set("ErrorBadge12","\uEDAE")
+.set("CircleRingBadge12","\uEDAF")
+.set("CircleFillBadge12","\uEDB0")
+.set("ImportantBadge12","\uEDB1")
+.set("MailBadge12","\uEDB3")
+.set("PauseBadge12","\uEDB4")
+.set("PlayBadge12","\uEDB5")
+.set("PenWorkspace","\uEDC6")
+.set("Export","\uEDE1")
+.set("ExportMirrored","\uEDE2")
+.set("CaligraphyPen","\uEDFB")
+.set("ReplyMirrored","\uEE35")
+.set("LockscreenDesktop","\uEE3F")
+.set("Multitask16","\uEE40")
+.set("Play36","\uEE4A")
+.set("PenPalette","\uEE56")
+.set("GuestUser","\uEE57")
+.set("SettingsBattery","\uEE63")
+.set("TaskbarPhone","\uEE64")
+.set("LockScreenGlance","\uEE65")
+.set("ImageExport","\uEE71")
+.set("WifiEthernet","\uEE77")
+.set("ActionCenterQuiet","\uEE79")
+.set("ActionCenterQuietNotification","\uEE7A")
+.set("TrackersMirrored","\uEE92")
+.set("DateTimeMirrored","\uEE93")
+.set("Wheel","\uEE94")
+.set("PenWorkspaceMirrored","\uEF15")
+.set("PenPaletteMirrored","\uEF16")
+.set("StrokeEraseMirrored","\uEF17")
+.set("PointEraseMirrored","\uEF18")
+.set("ClearAllInkMirrored","\uEF19")
+.set("BackgroundToggle","\uEF1F")
+.set("Marquee","\uEF20");
 
 //
 const css_text = `
@@ -1296,23 +1296,23 @@ const css_text = `
 `;
 
 //
-customElements.define('fl-icon', class FLuentIconElement extends FluentElement {
+customElements.define("fl-icon", class FLuentIconElement extends FluentElement {
     constructor() {
         super();
-        this.attachShadow({mode:'open'});
-        this.shadowRoot.appendChild(__makeElement('style', [], css_text));
+        this.attachShadow({mode:"open"});
+        this.shadowRoot.appendChild(__makeElement("style", [], css_text));
     }
     static get observedAttributes() {
-        return ['icon','char'];
+        return ["icon","char"];
     }
     attributeChangedCallback(attr, oV, nV) {
-        if (attr === 'icon') {
-            // set ::before content to icon_codes[nV]
-            this.setAttribute('data-char', icon_codes.get(nV));
+        if (attr === "icon") {
+            // set ::before content to icm[nV]
+            this.setAttribute("data-char", icm.get(nV));
         }
-        if (attr === 'char') {
+        if (attr === "char") {
             // set ::before content to nV
-            this.setAttribute('data-char', nV);
+            this.setAttribute("data-char", nV);
         }
     }
 });
