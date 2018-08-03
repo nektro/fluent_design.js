@@ -13,6 +13,9 @@ document.head.appendChild(__makeElement('style', [], `
 fl-button {
     display: inline-block;
     margin: 1em 0px;
+}
+fl-button button {
+    display: block;
     border: 2px solid transparent;
     background-color: #cfcfcf;
     padding: 5px 24px;
@@ -21,20 +24,29 @@ fl-button {
     font-size: 18px;
     letter-spacing: -1px;
 }
-fl-button:focus {
+fl-button button:focus {
     outline: none;
 }
-fl-button:hover {
+fl-button button:hover {
     border: 2px solid #7f7f7f;
 }
-fl-button:active {
+fl-button button:active {
     background-color: #7f7f7f;
 }
 `));
 
 //
-customElements.define('fl-button', class FLButtonElement extends HTMLElement {
+customElements.define('fl-button', class FLButtonElement extends FluentElement {
     constructor() {
         super();
+        this.appendChild(document.createElement("button"));
+    }
+    static get observedAttributes() {
+        return ['label'];
+    }
+    attributeChangedCallback(attr, oV, nV) {
+        if (attr === "label") {
+            this.querySelector("button").innerText = nV;
+        }
     }
 });
